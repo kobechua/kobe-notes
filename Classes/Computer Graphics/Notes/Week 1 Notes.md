@@ -50,7 +50,7 @@ $$
 $$
 To measure distance between two points, find the **relative vector** between two points, then the **magnitude** of the relative vector
 
-The **dot product** is a vector operator that calculates two vectors.
+The **dot product** is a vector operator that calculates two vectors. It is both **commutative** and **distributive**. It measures how much of the vector A lies in the direction of vector B, scaled by the magnitude of B
 $$
 A \cdot B = A_xB_x + A_yB_y
 $$
@@ -61,4 +61,5 @@ $$
 $$
 A \cdot B = |A||B|cos\theta
 $$
-where $\theta$ is the angle between A and $B$
+where $\theta$ is the angle between $A$ and $B$
+
