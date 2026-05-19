@@ -51,4 +51,14 @@ $$
 To measure distance between two points, find the **relative vector** between two points, then the **magnitude** of the relative vector
 
 The **dot product** is a vector operator that calculates two vectors.
-$A*B = Ax$
+$$
+A \cdot B = A_xB_x + A_yB_y
+$$
+$$
+A \cdot B = A_xB_x + A_yB_y + A_zB_z
+$$
+
+$$
+A \cdot B = |A||B|cos\theta
+$$
+where $\theta$ is the angle between A and $B$
