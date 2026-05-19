@@ -35,13 +35,19 @@ Generally a sum of points is invalid though there are exceptions.
 
 ## Vector Operators
 
-Vector Magnitude is the square root of the sum of squares. It represents the distance from the origin to the endpoint of the vector.
+Vector **magnitude** is the square root of the sum of squares. It represents the distance from the origin to the endpoint of the vector.
 
 $$
 ||V|| = \sqrt{V_x^2+V_y^2+V_z^2}
 $$
-Sometimes it useful to just compare the square magnitude rather than computing with an expensive square root, though this should be used with caution if not simply comparing the length of two vectors, since it is a nonlinear
+Sometimes it useful to just compare the **square magnitude** rather than computing with an expensive square root, though this should be used with caution if not simply comparing the length of two vectors, since it is a nonlinear
 $$
 ||V||^2 = V_x^2+V_y^2+V_z^2
 $$
-A unit vector is a vector with a length of 1. Any vector can be converted to a unit vector by normalization unless its a zero vector. Normalization is used to maintain **direction**, but not **magnitude**. Denoted by ^
+A **unit vector** is a vector with a length of 1. Any vector can be converted to a unit vector by normalization unless its a zero vector. Normalization is used to maintain **direction**, but not **magnitude**. Denoted by ^
+$$
+\hat{V}=\frac{V}{||V||}
+$$
+To measure distance between two points, find the **relative vector** between two points, then the **magnitude** of the relative vector
+
+
