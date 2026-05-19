@@ -23,6 +23,6 @@ Vector can be multiplied by scalar to make a new vector with a new length multip
 
 When scaling vectors, it has **distributive** and **associative** properties as well as an **identity** and **annihilating** property 
 
-A relative vector is the difference between two points, though it doesn't preserve point of origin.
+A relative vector is the difference between two points, though it doesn't inherently preserve point of origin.
 
-A situated vector 
+A vector solely conveys direction and magnitude, and lacks information on its point of origin. To solve this we employ a situated vector, which is a tuple of a point position and a vector. <Point, Vector>
