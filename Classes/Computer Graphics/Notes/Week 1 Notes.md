@@ -11,7 +11,6 @@ $$
 $$
 Polar: (r, \phi)
 $$
-
 ## Vectors
 
 Comprises a direction and magnitude/length. Can be 2D or 3D and can be represented in Cartesian or Polar
@@ -22,4 +21,8 @@ Vectors are **commutative** and **associative**. They also have an identity and 
 
 Vector can be multiplied by scalar to make a new vector with a new length multiplied by the scalar
 
-When scaling vectors, it has **distributive** and **associative** properties as we 
+When scaling vectors, it has **distributive** and **associative** properties as well as an **identity** and **annihilating** property 
+
+A relative vector is the difference between two points, though it doesn't preserve point of origin.
+
+A situated vector 
