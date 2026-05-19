@@ -38,5 +38,9 @@ Generally a sum of points is invalid though there are exceptions.
 Vector Magnitude is the square root of the sum of squares. It represents the distance from the origin to the endpoint of the vector.
 
 $$
-||V|| = \sqrt{}
+||V|| = \sqrt{V_x^2+V_y^2+V_z^2}
+$$
+Sometimes it useful to just compare the square magnitude rather than computing with an expensive square root
+$$
+||V||^2 = V_x^2+V_y^2+V_z^2
 $$
