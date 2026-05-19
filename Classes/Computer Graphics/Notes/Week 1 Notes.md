@@ -1,1 +1,2 @@
-Scalars, Points, Vectors
+# Computer Graphics Fundamentals - Part I
+
