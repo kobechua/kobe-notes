@@ -84,3 +84,5 @@ A **Euclidean Vector Space** is a two/three dimensional and consists of a set of
 - The distance between 2 points or vectors can be computed
 
 A **frame** consists of an origin and basis vectors within a Euclidean vector space. It can be thought of as a frame of reference for describing the position of points and vectors within the space. Frame coordinates can be used to create points in the vector space. Frame coordinate scalars can be used to scale the frame's basis vectors, which are then summed and offset to determine the point within the Euclidean vector space. Frames often represented as a transformation matrix. 
+
+A 3D vector space can be left or right handed. Once 2 orthogonal basis vectors (y or z), then the third basis vector must be orthogonal, but it allows either direction. 
