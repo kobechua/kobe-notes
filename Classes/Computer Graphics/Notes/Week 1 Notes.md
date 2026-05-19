@@ -72,3 +72,10 @@ $$
 $$
 ||A \times B|| = ||A||\ ||B||\ |sin\theta|
 $$
+Cross product can be represented with right hand rule
+
+## Vector Spaces, Euclidean Spaces, Frames
+**Vector space** is a collection of vectors that can be uniquely specified by some number of dimensions
+
+A 
+
