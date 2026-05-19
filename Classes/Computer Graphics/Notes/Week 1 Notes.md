@@ -20,4 +20,6 @@ Adding vectors can create a new vector
 
 Vectors are **commutative** and **associative**. They also have an identity and inverse element.
 
+Vector can be multiplied by scalar to make a new vector with a new length multiplied by the scalar
 
+When scaling vectors, it has **distributive** and **associative** properties as we 
