@@ -68,5 +68,5 @@ Timestamp 10:19
 The **cross product** takes two 3d vectors and produces a third vector that is perpendicular to both. This new vector represents the area of the parallelogram made by the vectors used.
 
 $$
-A \times B = (A_yB_z-A_zB_y),(A_z)
+A \times B = (A_yB_z-A_zB_y), (A_zB_x - A_xB_z), (A_x)
 $$
