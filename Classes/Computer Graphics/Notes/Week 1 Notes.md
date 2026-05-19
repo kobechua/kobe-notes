@@ -29,4 +29,6 @@ A vector solely conveys direction and magnitude, and lacks information on its po
 
 New points can be derived by adding a vector to the originating point.
 
-Generally a sum of points is invalid though there are exceptions. If a weighted average of points yields a valid point if th
+Generally a sum of points is invalid though there are exceptions. 
+- A weighted average of points yields a valid point if the weights sum to 1.
+- A weighted average of points yields a vector if the weights sum to 0
