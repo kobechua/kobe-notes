@@ -4,4 +4,9 @@
 
 **Scalars** are real numbers. **Points** are a location on space
 
-Points can be represented 
+Points can be represented as:
+
+$$
+Cartesian: (P_x, P_y) \linebreak
+Polar: (r, \phi)
+$$
