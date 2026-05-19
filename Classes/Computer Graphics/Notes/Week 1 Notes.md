@@ -65,4 +65,8 @@ where $\theta$ is the angle between $A$ and $B$
 
 Timestamp 10:19
 
-The **cross product** takes two 3d vectors and produces a third vector that is parallel to both. This
+The **cross product** takes two 3d vectors and produces a third vector that is perpendicular to both. This new vector represents the area of the parallelogram made by the vectors used.
+
+$$
+A \times B = (A_yB_z-)
+$$
