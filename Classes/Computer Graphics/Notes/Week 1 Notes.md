@@ -26,3 +26,7 @@ When scaling vectors, it has **distributive** and **associative** properties as 
 A relative vector is the difference between two points, though it doesn't inherently preserve point of origin.
 
 A vector solely conveys direction and magnitude, and lacks information on its point of origin. To solve this we employ a situated vector, which is a tuple of a point position and a vector. <Point, Vector>
+
+New points can be derived by adding a vector to the originating point.
+
+Generally a sum of points is invalid though there are exceptions. If a weighted average of points yields a valid point if th
