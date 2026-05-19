@@ -40,7 +40,8 @@ Vector Magnitude is the square root of the sum of squares. It represents the dis
 $$
 ||V|| = \sqrt{V_x^2+V_y^2+V_z^2}
 $$
-Sometimes it useful to just compare the square magnitude rather than computing with an expensive square root
+Sometimes it useful to just compare the square magnitude rather than computing with an expensive square root, though this should be used with caution if not simply comparing the length of two vectors, since it is a nonlinear
 $$
 ||V||^2 = V_x^2+V_y^2+V_z^2
 $$
+A unit vector is a vector with a length of 1. Any vector can be converted to a unit vector by normalization unless its a zero vector. Normalization is used to maintain **direction**, but not **magnitude**. Denoted by ^
