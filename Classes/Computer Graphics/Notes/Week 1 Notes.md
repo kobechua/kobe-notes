@@ -79,7 +79,8 @@ Cross product can be represented with right hand rule
 
 A **Euclidean Vector Space** is a two/three dimensional and consists of a set of points that supports certain mathematical operations. It is a vector space that can make it useful for describing classical physical reality.
 
-It features a dot product
-The magnitude/length of vectors can be computed
-the disteance between 2 points or vectors can be computed
+- It features a dot product
+- The magnitude/length of vectors can be computed
+- The distance between 2 points or vectors can be computed
 
+A **frame** consists of an origin and basis vectors within a Euclidean vector space. It can be thought of as a frame of reference for describing the position of points and vectors within the space. Frame coordinates can be used to create points in the vector space. Frame coordinate scalars can
