@@ -14,4 +14,10 @@ $$
 
 ## Vectors
 
-Comprises a direction and magn
+Comprises a direction and magnitude/length. Can be 2D or 3D and can be represented in Cartesian or Polar
+
+Adding vectors can create a new vector
+
+Vectors are **commutative** and **associative**. They also have an identity and inverse element.
+
+
