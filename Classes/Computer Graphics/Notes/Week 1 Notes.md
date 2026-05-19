@@ -77,5 +77,9 @@ Cross product can be represented with right hand rule
 ## Vector Spaces, Euclidean Spaces, Frames
 **Vector space** is a collection of vectors that can be uniquely specified by some number of dimensions
 
-A 
+A **Euclidean Vector Space** is a two/three dimensional and consists of a set of points that supports certain mathematical operations. It is a vector space that can make it useful for describing classical physical reality.
+
+It features a dot product
+The magnitude/length of vectors can be computed
+the disteance between 2 points or vectors can be computed
 
