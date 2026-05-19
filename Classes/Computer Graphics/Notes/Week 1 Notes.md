@@ -63,4 +63,6 @@ A \cdot B = |A||B|cos\theta
 $$
 where $\theta$ is the angle between $A$ and $B$
 
+Timestamp 10:19
+
 The **cross product** takes two 3d vectors and produces a third vector that is parallel to both. This
