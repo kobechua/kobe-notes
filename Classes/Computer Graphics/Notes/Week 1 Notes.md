@@ -91,7 +91,7 @@ A 3D vector space can be left or right handed. Once 2 orthogonal basis vectors (
 
 ## Rendering
 The two approaches are **Object-Order Rendering** and **Image-Order Rendering**.
-- Object-order rendering iterates over scene geometry and projects it onto the screen. Beca
-- Image-order rendering iterates over pixels and traces them back to the scene
+- Object-order rendering iterates over scene geometry and projects it onto the screen. Because we are considering each object, when an object overlaps we check the distance from the camera to see which goes over. The Z buffer records the depth and compares values to save extra calculations
+- Image-order rendering iterates over pixels and traces them back to the scene. Iterates 
 
 
