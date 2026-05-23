@@ -135,4 +135,8 @@ u,v are coordinates in the camera's image plane/viewing window
 
 ![[Pasted image 20260523112015.png]]
 
-The idea is to calculate the **displacement vector** (vector that tells you how to get from one point to another) from the pixel center position to the camera position. The sample point $S_{i,j}$  
+The idea is to calculate the **displacement vector** (vector that tells you how to get from one point to another) from the pixel center position to the camera position. The sample point $S_{i,j}$ is the center of the pixel that the ray should pass through.
+
+To calculate we need 
+$u_i$ and $v_j$
+Ray vector: $-dw+u_iu + v_jv$ where u and v are the   
