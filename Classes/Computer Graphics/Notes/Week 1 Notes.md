@@ -94,4 +94,5 @@ The two approaches are **Object-Order Rendering** and **Image-Order Rendering**.
 - Object-order rendering iterates over scene geometry and projects it onto the screen. Because we are considering each object, when an object overlaps we check the distance from the camera to see which goes over. The Z buffer records the depth and compares values to save extra calculations
 - Image-order rendering iterates over pixels and traces them back to the scene. It involves analyzing each point in an image plane and determining which object contributes to that pixel. Contribution is determined by the objects surface characteristics in relation to light sources in the scene. Visible surface determination is more expensive but accurate and sharp. This creates more realistic images than object order rendering. Ray-tracing is an example of image-order rendering
 
-
+## Rays
+Rays are the fundamental component of Ray Tracing. They are simply situated vectors. The rays originate from the eye/camera. T he ray is directed from the corresponding pixel sensor of the cam
