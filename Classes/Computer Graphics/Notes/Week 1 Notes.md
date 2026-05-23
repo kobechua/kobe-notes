@@ -108,3 +108,6 @@ for each pixel do
 	find first object hit by ray and its surface normal n
 	set pixel color to value computed from hit point, light, and n
 ```
+
+## Real World Camera vs Virtual
+A real world camera must adhere to physical constraints, such as having the light sensor behind a lens/pinhole. The lens/pinhole focuses light to form an image on the sensor, resulting in an inverted projected image that is corrected by the camera's internal processing.
