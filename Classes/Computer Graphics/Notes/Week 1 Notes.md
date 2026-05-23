@@ -129,7 +129,7 @@ the plane is nx * ny total pixels in a grid layout
 assume we know the size of the view plane. We know the distance from the center of the view plane to all edges
 All pixels have the same dimensions
 i,j are indices on the plane
-u,v are coord
+u,v are coordinates in the camera's image plane/viewing window
 
 ![[Pasted image 20260523111908.png]]
 
