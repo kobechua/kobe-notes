@@ -135,4 +135,4 @@ u,v are coordinates in the camera's image plane/viewing window
 
 ![[Pasted image 20260523112015.png]]
 
-The idea is to calculate the **displacement vector** (vector that tells you how to get from one point to another) from the pixel center position to the camera position
+The idea is to calculate the **displacement vector** (vector that tells you how to get from one point to another) from the pixel center position to the camera position. The sample point $S_{i,j}$  
