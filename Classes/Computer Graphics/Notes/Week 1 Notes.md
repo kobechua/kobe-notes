@@ -95,7 +95,7 @@ The two approaches are **Object-Order Rendering** and **Image-Order Rendering**.
 - Image-order rendering iterates over pixels and traces them back to the scene. It involves analyzing each point in an image plane and determining which object contributes to that pixel. Contribution is determined by the objects surface characteristics in relation to light sources in the scene. Visible surface determination is more expensive but accurate and sharp. This creates more realistic images than object order rendering. Ray-tracing is an example of image-order rendering
 
 ## Rays
-Rays are the fundamental component of Ray Tracing. They are simply situated vectors. The rays originate from the eye/camera. T he ray is directed from the corresponding pixel sensor of the camera towards the scene according to the inherent properties of the camera. (e.g. view plane size and position determines camera FOV)
+Rays are the fundamental component of Ray Tracing. They are simply situated vectors. The rays originate from the eye/camera. The ray is directed from the corresponding pixel sensor of the camera towards the scene according to the inherent properties of the camera. (e.g. view plane size and position determines camera FOV)
 
 Ray tracing steps are as follows:
 - Ray Generation -> Determine the ray based on the camera view per pixel
@@ -117,3 +117,5 @@ A virtual camera in a Euclidean Vector Space is modeled more flexibly. It assume
 This approach simplifies the mathematics of projection by avoiding the need to deal with an inverted image. It directly computes the direction from the camera to the scene, allowing straightforward ray tracing and perspective transformations. The virtual camera' setup allows easier integration with rendering algorithms and eliminates physical constraints in a real world camera
 
 ## Ray Generation
+
+Given a camera/eye position (origin) and a point on the view plane that corresponds with a pixel (s) we can find the vector with origin - s
