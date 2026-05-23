@@ -141,4 +141,6 @@ To calculate we need
 $u_i$ and $v_j$ which are scalars which represent how far left/right to move
 u and v which are vectors in up/down and left/right directions
 Ray vector: $-dw+u_iu + v_jv$  
-- $u_iu$ and
+- $u_iu$ and $v_jv$ can be thought of $amount \times direction$ where $u_iu$ is horizontal displacement and $v_jv$ is vertical displacement
+- $-dw$ represents the forward movement towards the image plane
+- 
