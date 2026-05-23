@@ -152,4 +152,7 @@ Putting it together, we get $S_{ij} = e-dw+u_iu + v_jv$ which represents a point
 What's the difference between $(i,j)$, $(u_i, v_j)$, and $S_{i,j}$?
  $(i,j)$: which pixel in the image grid
  $(u_i, v_j)$: that pixel's coordinates on the view plane
- $S_{i,j}$: the 3D world-space point on the view plane
+ $S_{i,j}$: the 3D world-space point on the view plane.
+ The view plane sits between the eye and the scene
+
+![[Pasted image 20260523123443.png|455]]
