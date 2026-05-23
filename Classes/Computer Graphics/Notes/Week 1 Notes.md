@@ -113,3 +113,7 @@ for each pixel do
 A real world camera must adhere to physical constraints, such as having the light sensor behind a lens/pinhole. The lens/pinhole focuses light to form an image on the sensor, resulting in an inverted projected image that is corrected by the camera's internal processing. 
 
 A virtual camera in a Euclidean Vector Space is modeled more flexibly. It assumes that the light rays travel directly from the scene to the view plane/sensor as if the sensor pixels measure light from a certain direction defined by a focal point behind the sensor.
+
+This approach simplifies the mathematics of projection by avoiding the need to deal with an inverted image. It directly computes the direction from the camera to the scene, allowing straightforward ray tracing and perspective transformations. The virtual camera' setup allows easier integration with rendering algorithms and eliminates physical constraints in a real world camera
+
+## Ray Generation
