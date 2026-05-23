@@ -131,9 +131,9 @@ All pixels have the same dimensions
 i,j are indices on the plane
 u,v are coordinates in the camera's image plane/viewing window
 
-![[Pasted image 20260523111908.png]]
+![[../../../resources/Pasted image 20260523111908.png]]
 
-![[Pasted image 20260523112015.png]]
+![[../../../resources/Pasted image 20260523112015.png]]
 
 The idea is to calculate the **displacement vector** (vector that tells you how to get from one point to another) from the pixel center position to the camera position. The sample point $S_{i,j}$ is the center of the pixel that the ray should pass through.
 
@@ -155,4 +155,6 @@ What's the difference between $(i,j)$, $(u_i, v_j)$, and $S_{i,j}$?
  $S_{i,j}$: the 3D world-space point on the view plane.
  The view plane sits between the eye and the scene
 
-![[Pasted image 20260523123443.png|455]]
+![[../../../resources/Pasted image 20260523123443.png|455]]
+
+This is representing the coordinates of the points on a line in terms of $t$
