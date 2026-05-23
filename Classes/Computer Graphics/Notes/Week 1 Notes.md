@@ -125,4 +125,8 @@ To determine the view plane point S, we need to be able to relate the view plane
 
 origin (E) 
 distance from plane (d)
-the plane is nx * ny pixels in a grid layout
+the plane is nx * ny total pixels in a grid layout
+assume we know the size of the view plane. We know the distance from the center of the view plane to all edges
+
+![[Pasted image 20260523111908.png]]
+
