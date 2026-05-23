@@ -157,6 +157,11 @@ What's the difference between $(i,j)$, $(u_i, v_j)$, and $S_{i,j}$?
 
 ![[../../../resources/Pasted image 20260523123443.png|455]]
 
-This is representing the coordinates of the points on a line in terms of $t$ 
+- This is representing the coordinates of the points on a line in terms of $t$ 
 
-if $0 < t_1 < t_2$ then $P(t_1)$ is closer to the eye than $P(t_2)$
+- if $0 < t_1 < t_2$ then $P(t_1)$ is closer to the eye than $P(t_2)$
+
+- 0 <= t <= 1 interpolation between eye and screen 
+	t > 1 extrapolation past the screen into the scene  
+	t < 0 extrapolation behind the eye
+
