@@ -139,4 +139,4 @@ The idea is to calculate the **displacement vector** (vector that tells you how 
 
 To calculate we need 
 $u_i$ and $v_j$
-Ray vector: $-dw+u_iu + v_jv$ where u and v are the   
+Ray vector: $-dw+u_iu + v_jv$  
