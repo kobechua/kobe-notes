@@ -99,4 +99,12 @@ Rays are the fundamental component of Ray Tracing. They are simply situated vect
 
 Ray tracing steps are as follows:
 - Ray Generation -> Determine the ray based on the camera view per pixel
-- Ray Intersection -> Determine which rays intersect geometry in scene; determine th
+- Ray Intersection -> Determine which rays intersect geometry in scene; determine the intersection position and surface normal. The position of the closest intersection is determined and the surface of the normal geometry that is intersected is computed
+- Shading -> Assign pixel value according to surface properties and illumination
+
+```python
+for each pixel do
+	compute viewing ray
+	find first object hit by ray and its surface normal n
+	set pixel color to value computed from hit point, light, and n
+```
