@@ -118,7 +118,11 @@ This approach simplifies the mathematics of projection by avoiding the need to d
 
 ## Ray Generation
 
-Given a camera/eye position (origin) and a point on the view plane that corresponds with a pixel (s) we can find the situated vector with 
-`origin - s` 
+Given a camera/eye position (origin) and a point on the view plane that corresponds with a pixel (s) we can find the vector with 
+`origin - s` . We need a situated vector, so its important to preserve the ray's point of origin
 
-To determine the view plane point S, we need to be able to relate the view plane to the coordinate system of the scene. We can define a Camera Frame where the camera position is the origin of the frame and looking down the negative w axis
+To determine the view plane point S, we need to be able to relate the view plane to the coordinate system of the scene. 
+
+origin (E) 
+distance from plane (d)
+the plane is nx * ny pixels in a grid layout
