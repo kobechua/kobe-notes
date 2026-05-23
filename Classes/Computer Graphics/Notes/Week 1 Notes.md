@@ -147,4 +147,9 @@ Ray vector: $dw+u_iu + v_jv$
 - $u_iu$ and $v_jv$ can be thought of $amount \times direction$ where $u_iu$ is horizontal displacement and $v_jv$ is vertical displacement
 
 
-Putting it together, we get $S_{ij} = e-dw+u_iu + v_jv$ which represents the point $S_{i,j}$ in the world space
+Putting it together, we get $S_{ij} = e-dw+u_iu + v_jv$ which represents a point in the world space.
+
+What's the difference between $(i,j)$, $(u_i, v_j)$, and $S_{i,j}$?
+ $(i,j)$: which pixel in the image grid
+ $(u_i, v_j)$: that pixel's coordinates on the view plane
+ $S_{i,j}$: the 3D world=space point on the view plane
