@@ -147,4 +147,4 @@ Ray vector: $dw+u_iu + v_jv$
 - $u_iu$ and $v_jv$ can be thought of $amount \times direction$ where $u_iu$ is horizontal displacement and $v_jv$ is vertical displacement
 
 
-
+Putting it together, we get $S_{ij} = e-dw+u_iu + v_jv$ which represents the point $S_{i,j}$ in the world space
