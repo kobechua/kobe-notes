@@ -90,4 +90,6 @@ A 3D vector space can be left or right handed. Once 2 orthogonal basis vectors (
 # Ray Tracing Intro - Fundamental Rendering Approaches
 
 ## Rendering
-The two approaches are **O
+The two approaches are **Object-Order Rendering** and **Image-Order Rendering**.
+- Object-order rendering iterates over scene geometry and projects it onto the screen.
+- Image-order rendering iterates over pixels and traces them back to the scene
