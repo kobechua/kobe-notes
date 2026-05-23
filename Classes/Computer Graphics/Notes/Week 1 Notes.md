@@ -91,6 +91,7 @@ A 3D vector space can be left or right handed. Once 2 orthogonal basis vectors (
 
 ## Rendering
 The two approaches are **Object-Order Rendering** and **Image-Order Rendering**.
-- Object-order rendering iterates over scene geometry and projects it onto the screen.
+- Object-order rendering iterates over scene geometry and projects it onto the screen. Beca
 - Image-order rendering iterates over pixels and traces them back to the scene
+
 
