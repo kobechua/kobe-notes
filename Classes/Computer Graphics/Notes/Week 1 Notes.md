@@ -213,3 +213,9 @@ Previous mapping assumed each ray goes through the corner of a pixel. For better
 and $j\rightarrow j+0.5$. This yields the new mapping formula
 
 $$ u = (\frac{2(i+0.5)}{W}-1)\cdot A \cdot k$$
+$$ v = (\frac{2(j+0.5)}{H}-1)\cdot k$$
+This form is widely used, and handles centering the pixel, scaling coordinates, and applying aspect ratio all in one line
+
+![[Pasted image 20260524114242.png]]
+
+In many image s
