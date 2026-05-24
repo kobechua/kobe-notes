@@ -219,4 +219,7 @@ This form is widely used, and handles centering the pixel, scaling coordinates, 
 ![[Pasted image 20260524114242.png]]
 
 In many image systems, including Processing the origin of the pixel grid is in the top left corner, where the y coordinate increases as you go down. We was the vertical axis to increases as we move upwards
-- We flip the direction of the v coordinate by taking the centered and scale v expression and wrapping it i a subtraction from 1
+- We flip the direction of the v coordinate by subtracting 1 from the centered and scaled v expression
+
+$$ v = (\frac{2(j+0.5)}{H}-1)\cdot k \rightarrow v = (1-\frac{2(j+0.5)}{H})\cdot k$$
+
