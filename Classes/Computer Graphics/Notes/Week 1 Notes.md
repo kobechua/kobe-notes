@@ -232,3 +232,10 @@ We are able to define the ray that goes through any given pixel with the formula
 ![[Pasted image 20260524120025.png]]
 
 Fixing FOV ensures that the top and bottom of the scene are always visible in the same way.
+
+![[Pasted image 20260524120121.png]]
+
+As aspect ratio increases, the horizontal FOV gets wider. 
+
+![[Pasted image 20260524120249.png]]
+
