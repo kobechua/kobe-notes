@@ -208,3 +208,6 @@ The vertical extent of the view plane is defined using the field of view angle $
 ![[Pasted image 20260524113200.png]]
 
 ![[Pasted image 20260524113523.png]]
+
+Previous mapping assumed each ray goes through the corner of a pixel. For better accuracy we want it to go thru the center of a pixel. To do this we shift the pixel indices by one half. That means we replace $i -> i + 0.5$
+and $j->j+0
