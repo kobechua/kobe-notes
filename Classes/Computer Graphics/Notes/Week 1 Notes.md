@@ -241,3 +241,5 @@ As aspect ratio increases, the horizontal FOV gets wider.
 
 ![[Pasted image 20260524120352.png]]
 
+![[Pasted image 20260524120528.png]]
+
