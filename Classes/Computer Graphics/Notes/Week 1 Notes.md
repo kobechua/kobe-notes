@@ -168,3 +168,11 @@ What's the difference between $(i,j)$, $(u_i, v_j)$, and $S_{i,j}$?
 ## Ray Generation - From Camera Pose and FOV
 We will derive ray directions based on camera's pose and field of view
 ![[Pasted image 20260523220417.png]]
+
+Here we assume a left handed coordinate system where
+- right is along the positive x axis
+- up is along the positive y axis
+- forward is along the positive z axis
+(Formulas can be adapted to a right handed coordinated system)
+
+
