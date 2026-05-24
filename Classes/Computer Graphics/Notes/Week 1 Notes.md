@@ -197,6 +197,16 @@ $$
 
 > Box
 
-| Table | Hanush | 
-|---------------|
-|-------||
+| Table | Nush |
+| ----- | ---- |
+| Mayee | Kobe |
+```c++
+int fibonacchi (n)
+{
+	if (n <= 1)
+	{
+	
+	}
+	
+}
+```
