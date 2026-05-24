@@ -218,4 +218,5 @@ This form is widely used, and handles centering the pixel, scaling coordinates, 
 
 ![[Pasted image 20260524114242.png]]
 
-In many image s
+In many image systems, including Processing the origin of the pixel grid is in the top left corner, where the y coordinate increases as you go down. We was the vertical axis to increases as we move upwards
+- We flip the direction of the v coordinate by taking the centered and scale v expression and wrapping it i a subtraction from 1
