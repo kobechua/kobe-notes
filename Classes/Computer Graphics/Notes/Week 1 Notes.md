@@ -182,4 +182,8 @@ Before we map from pixel coordinates within the camera space, we first center th
 
 After recentering the pixel coordinates we scale them to match the size of the view plane in world space. We place the view plane one unit in front of the camera along the w vector. The distance is **arbitrary** but it simplifies math.
 
-The vertical FOV is defined by $\thr
+The vertical FOV is defined by $\theta$ and is the total angle from the top to the bottom of the view.
+
+We define k as the tangent of half this angle. This gives us the vertical half height of the view plane
+
+If the screen is square, that is, W equals H, then the view plane will have equal height and width in the world space.
