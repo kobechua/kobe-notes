@@ -185,5 +185,18 @@ After recentering the pixel coordinates we scale them to match the size of the v
 The vertical FOV 
 
 $$
-\frac{-b \pm \sqrt{}b^2-4ac}{}
+\frac{-b \pm \sqrt{b^2-4ac}}{2a}
 $$
+
+# title
+## heading
+### heading 2
+###### smaller heading
+- bullets
++ bullet 2
+
+> Box
+
+| Table | Hanush | 
+|---------------|
+|-------||
