@@ -176,4 +176,4 @@ Here we assume a left handed coordinate system where
 - forward is along the positive z axis
 (Formulas can be adapted to a right handed coordinated system)
 
-Before we map from pixel coordinates to camera space, we first center the pixel grid around the middle of the screen using the formula in the picture above.
+Before we map from pixel coordinates within the camera space, we first center the pixel grid around the middle of the screen using the formula in the picture above.
