@@ -222,4 +222,8 @@ In many image systems, including Processing the origin of the pixel grid is in t
 - We flip the direction of the v coordinate by subtracting 1 from the centered and scaled v expression
 
 $$ v = (\frac{2(j+0.5)}{H}-1)\cdot k \rightarrow v = (1-\frac{2(j+0.5)}{H})\cdot k$$
-- when j is at the top of the screen, v is now positive. When j is near H-1 at the bottom, v becomes negative. This 
+- when j is at the top of the screen, v is now positive. When j is near H-1 at the bottom, v becomes negative. This aligns screen rows with world space in a more natural way
+![[Pasted image 20260524115727.png]]
+
+We are able to define the ray that goes through any given pixel.
+
