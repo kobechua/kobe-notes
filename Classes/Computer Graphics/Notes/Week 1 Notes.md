@@ -244,3 +244,7 @@ As aspect ratio increases, the horizontal FOV gets wider.
 ![[Pasted image 20260524120528.png]]
 
 ## Ray Sphere Intersection
+## Ray Plane Intersection
+## Ray Triangle Intersection
+## Ray 3D Triangle Intersection
+## Ray Box Intersection
