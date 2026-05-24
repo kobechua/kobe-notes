@@ -194,4 +194,9 @@ If the screen is square, that is, W equals H, then the view plane will have equa
 
 The formulas required to map the screen coordinates to the 3d world space distances on the view plane. This formula first centers the horizontal coordinate then scales the width to world units. Each pixel is assigned a u and v coordinate on the view plane that we can use to compute its corresponding ray direction.
 
-IF the screen isn't square, our square screen math 
+If the display isn't square, our square screen math will result in a distorted image. Aspect ration tells us the shape of the image in terms of width and height , defined as
+
+$$
+A = \frac{W}{H}
+$$
+If A is greater than 1, the image is wider than it is tall. If it is less than 1, then is it is in portrait mode. Our goal is to keep the vertical field of view fixed. This way, when the display shape changes, the horizontal view a
