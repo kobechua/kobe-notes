@@ -166,7 +166,7 @@ What's the difference between $(i,j)$, $(u_i, v_j)$, and $S_{i,j}$?
 	t > 1 extrapolation past the screen into the scene  
 	t < 0 extrapolation behind the eye
 
-## Ray Generation - From Camera Pose and FOV
+### Ray Generation - From Camera Pose and FOV
 We will derive ray directions based on camera's pose and field of view
 ![[Pasted image 20260523220417.png]]
 
@@ -243,3 +243,4 @@ As aspect ratio increases, the horizontal FOV gets wider.
 
 ![[Pasted image 20260524120528.png]]
 
+## Ray Sphere Intersection
