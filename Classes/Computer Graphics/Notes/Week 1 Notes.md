@@ -183,3 +183,7 @@ Before we map from pixel coordinates within the camera space, we first center th
 After recentering the pixel coordinates we scale them to match the size of the view plane in world space. We place the view plane one unit in front of the camera along the w vector. The distance is **arbitrary** but it simplifies math.
 
 The vertical FOV 
+
+$$
+\frac{-b \pm \sqrt{}b^2-4ac}{}
+$$
