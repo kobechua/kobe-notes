@@ -209,5 +209,7 @@ The vertical extent of the view plane is defined using the field of view angle $
 
 ![[Pasted image 20260524113523.png]]
 
-Previous mapping assumed each ray goes through the corner of a pixel. For better accuracy we want it to go thru the center of a pixel. To do this we shift the pixel indices by one half. That means we replace $i -> i + 0.5$
-and $j->j+0
+Previous mapping assumed each ray goes through the corner of a pixel. For better accuracy we want it to go thru the center of a pixel. To do this we shift the pixel indices by one half. That means we replace $i \rightarrow i + 0.5$
+and $j\rightarrow j+0.5$. This yields the new mapping formula
+
+$$ u = (\frac{2(i+0.5)}{W}-1)\cdot A \cdot k$$
