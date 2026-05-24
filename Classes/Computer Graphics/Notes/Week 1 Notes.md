@@ -203,4 +203,5 @@ If A is greater than 1, the image is wider than it is tall. If it is less than 1
 
 ![[Pasted image 20260524112541.png]]
 
-The vertical extent of the view plane using the field of view angle $\theta$.
+The vertical extent of the view plane is defined using the field of view angle $\theta$. From that we compute k as the tangent of half the angle, giving us half the height in world space. So the full height is 2k. **To compute the width, multiply the height by the aspect ratio A**
+
