@@ -138,8 +138,9 @@ u,v are coordinates in the camera's image plane/viewing window
 The idea is to calculate the **displacement vector** (vector that tells you how to get from one point to another) from the pixel center position to the camera position. The sample point $S_{i,j}$ is the center of the pixel that the ray should pass through.
 
 To calculate we need 
+
 $u_i$ and $v_j$ which are scalars which represent how far left/right to move
-u and v which are vectors in up/down and left/right directions
+u and v which are vectors on the view plane representing up/down and left/right directions
 
 Ray vector: $dw+u_iu + v_jv$  
 - $e$ represents the camera/eye position or origin. When removing **$e$** from the equation it is no longer 
@@ -175,4 +176,4 @@ Here we assume a left handed coordinate system where
 - forward is along the positive z axis
 (Formulas can be adapted to a right handed coordinated system)
 
-
+The camera is positioned at point e, looking in direction of vector w. The view plane is place in front of the camera. Uses
