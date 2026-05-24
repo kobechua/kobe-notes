@@ -225,5 +225,10 @@ $$ v = (\frac{2(j+0.5)}{H}-1)\cdot k \rightarrow v = (1-\frac{2(j+0.5)}{H})\cdot
 - when j is at the top of the screen, v is now positive. When j is near H-1 at the bottom, v becomes negative. This aligns screen rows with world space in a more natural way
 ![[Pasted image 20260524115727.png]]
 
-We are able to define the ray that goes through any given pixel.
+We are able to define the ray that goes through any given pixel with the formulas above
 
+![[Pasted image 20260524115918.png]]
+
+![[Pasted image 20260524120025.png]]
+
+Fixing FOV ensures that the top and bottom of the scene are always visible in the same way.
