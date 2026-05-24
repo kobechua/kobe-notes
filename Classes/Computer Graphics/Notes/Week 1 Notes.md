@@ -186,4 +186,9 @@ The vertical FOV is defined by $\theta$ and is the total angle from the top to t
 
 We define k as the tangent of half this angle. This gives us the vertical half height of the view plane
 
-If the screen is square, that is, W equals H, then the view plane will have equal height and width in the world space.
+If the screen is square, that is, W equals H, then the view plane will have equal height and width in the world space, both equal to 2k
+
+*screen refers to the 2D pixel representation, while view plane refers to the screen placed in 3D space in front of the camera*
+
+![[Pasted image 20260524104317.png]]
+
