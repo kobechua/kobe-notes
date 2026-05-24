@@ -207,3 +207,4 @@ The vertical extent of the view plane is defined using the field of view angle $
 
 ![[Pasted image 20260524113200.png]]
 
+![[Pasted image 20260524113523.png]]
