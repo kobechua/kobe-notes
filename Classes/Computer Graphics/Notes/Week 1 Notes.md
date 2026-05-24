@@ -200,3 +200,7 @@ $$
 A = \frac{W}{H}
 $$
 If A is greater than 1, the image is wider than it is tall. If it is less than 1, then is it is in portrait mode. Our goal is to keep the vertical field of view fixed. This way, when the display shape changes, the horizontal view adjusts automatically to preserve the vertical framing. To do this we'll use the aspect ratio to stretch or compress the horizontal extent of the view plane
+
+![[Pasted image 20260524112541.png]]
+
+The vertical extent of the view plane using the field of view angle $\theta$.
