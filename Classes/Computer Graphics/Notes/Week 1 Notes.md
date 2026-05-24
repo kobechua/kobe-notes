@@ -176,4 +176,4 @@ Here we assume a left handed coordinate system where
 - forward is along the positive z axis
 (Formulas can be adapted to a right handed coordinated system)
 
-The camera is positioned at point e, looking in direction of vector w. The view plane is place in front of the camera. Uses
+Before we map from pixel coordinates to camera space, we first center the pixel grid around the middle of the screen using the formula in the picture above.
