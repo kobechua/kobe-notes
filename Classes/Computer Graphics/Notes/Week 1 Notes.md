@@ -192,3 +192,4 @@ If the screen is square, that is, W equals H, then the view plane will have equa
 
 ![[Pasted image 20260524104317.png]]
 
+The formulas required to map the screen coordinates to the 3d world space distances on the view plane. This formula first centers the horizontal coordinate then scales the width to world units.
