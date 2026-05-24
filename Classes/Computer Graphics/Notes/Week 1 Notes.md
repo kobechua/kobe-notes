@@ -203,5 +203,7 @@ If A is greater than 1, the image is wider than it is tall. If it is less than 1
 
 ![[Pasted image 20260524112541.png]]
 
-The vertical extent of the view plane is defined using the field of view angle $\theta$. From that we compute k as the tangent of half the angle, giving us half the height in world space. So the full height is 2k. **To compute the width, multiply the height by the aspect ratio A**
+The vertical extent of the view plane is defined using the field of view angle $\theta$. From that we compute k as the tangent of half the angle, giving us half the height in world space. So the full height is 2k. **To compute the width, multiply the height by the aspect ratio A** This keeps the top and bottom of the view consistent across different screens while allowing the sides to grow or shrink to match the screen shape.
+
+![[Pasted image 20260524113200.png]]
 
