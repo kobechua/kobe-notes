@@ -262,7 +262,9 @@ Efficiently test if a ray intersects an Axis-Aligned Bounding Box
 The slab algorithm uses interval testing to determine whether a ray intersects an AABB. We can think of the slab as the box we see when looking down one axis
 
 1. Calculate ray's T near and far values with respect to the bounding planes of each slab.
-	- $T_{near}$ represents the minimum bound of the box, B{min} 
+	-  $T_{near}$ and $T_{far}$ represent the distances along the ray where the ray enters and exits the slab/box
+	- For one slab, solve for where the ray hits two of the same planet
+	- $1​=Dx​minX−Ox​​ t2=maxX−OxDxt_2 = \frac{maxX - O_x}{D_x}t2​=Dx​maxX−Ox​​$ 
 2. Ensure that $t_{near} \le t_{far}$, otherwise swap
 3. Start with $[t_0,t_1]=[0,\infty]$ 
 4. 
