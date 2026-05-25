@@ -255,3 +255,5 @@ Efficiently test if a ray intersects an Axis-Aligned Bounding Box
 
 ![[Pasted image 20260525104229.png]]
 
+![[Pasted image 20260525105143.png]]
+
