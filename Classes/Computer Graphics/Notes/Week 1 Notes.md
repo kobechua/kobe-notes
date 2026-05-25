@@ -257,3 +257,8 @@ Efficiently test if a ray intersects an Axis-Aligned Bounding Box
 
 ![[Pasted image 20260525105143.png]]
 
+![[Pasted image 20260525105304.png]]
+
+The slab algorithm uses interval testing to determine whether a ray intersects an AABB.
+
+Calculate ray's T values 
