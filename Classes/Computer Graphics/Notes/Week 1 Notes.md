@@ -248,3 +248,6 @@ As aspect ratio increases, the horizontal FOV gets wider.
 ## Ray Triangle Intersection
 ## Ray 3D Triangle Intersection
 ## Ray Box Intersection
+Efficiently test if a ray intersects an Axis-Aligned Bounding Box
+- this is used for rendering box shapes
+- An AABB is defined by its minm
