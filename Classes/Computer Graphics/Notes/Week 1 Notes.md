@@ -263,5 +263,6 @@ The slab algorithm uses interval testing to determine whether a ray intersects a
 
 1. Calculate ray's T values with respect to the bounding planes of each slab
 2. Ensure that $t_{near} \le t_{far}$
-3. Start with $[t_0,t_1]=[0,\infinity]$ 
+3. Start with $[t_0,t_1]=[0,\infty]$
 4. 
+5. 
