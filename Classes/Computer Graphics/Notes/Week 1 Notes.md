@@ -250,4 +250,5 @@ As aspect ratio increases, the horizontal FOV gets wider.
 ## Ray Box Intersection
 Efficiently test if a ray intersects an Axis-Aligned Bounding Box
 - this is used for rendering box shapes
-- An AABB is defined by its minm
+- An AABB is defined by its minimum and maximum corners, and can be thought of as the intersection of three slabs. A point P is inside the box if for each dimension $B_{min} \leq P \leq B_{max}$ 
+- 
