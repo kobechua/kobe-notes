@@ -266,7 +266,4 @@ The slab algorithm uses interval testing to determine whether a ray intersects a
 	- For one slab, solve for where the ray hits. Should be two hits in the entire box
 	- $t1​=​\frac{minX−O_x}{D_x}​​ t_2=\frac{maxX−Ox}{Dx}$
 	- Then to find $t_{near} = min(t_1, t_2)$ and $t_{far}  = max(t_1, t_2)$
-2. Ensure that $t_{near} \le t_{far}$, otherwise swap
-3. Start with $[t_0,t_1]=[0,\infty]$ 
-4. 
-5. 
+
