@@ -27,5 +27,7 @@ Normal is calculated with $N = E_1 \times E_2$ and Normalize N to ensure its a u
 
 $N = \frac{N}{||N||}$
 
-Direction of $N$ depends on v
+Direction of $N$ depends on vertex winding order
+
+#### Surface Normals: Box (AABB)
  
