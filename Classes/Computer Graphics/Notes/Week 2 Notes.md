@@ -11,7 +11,8 @@
 
 #### Sphere Calculation
 - A sphere is defined by its center $C$ and radius $r$. 
-- For a point P on the sphere. N is equal to the f
+- For a point P on the sphere.
 $$
 N = \frac{P-C}{||P-C||}
 $$
+N is equal to the vector from center 
