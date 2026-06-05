@@ -15,6 +15,6 @@
 $$
 N = \frac{P-C}{||P-C||}
 $$
-N is equal to the vector from center to surface point divided by the **vector magnitude** of the vector from center to surface point
+N is equal to the vector from center to surface point divided by the **vector magnitude** of the vector from center to surface point. 
 
 
