@@ -43,4 +43,6 @@ Direct illumination is light that reaches a surface directly from a light source
 - Real-world lighting includes contributions from indirect light
 
 Indirect Illumination is light that includes contributions from reflections or scattering events before reaching a surface
-- This includes 
+- This includes from indirect reflections or subtle interactions like color bleeding.
+
+Global Illumination refers to the comprehensive simulation of light in a scene including both direct and indirect illumination
