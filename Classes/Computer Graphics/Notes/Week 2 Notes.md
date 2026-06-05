@@ -38,4 +38,9 @@ $$
 N = -Sign(D[axis])\cdot\hat{e}_{axis}
 $$
 ### Direct and Indirect Illumination
-Direct illumination is lgiht that reaches a surface directly from a light sou
+Direct illumination is light that reaches a surface directly from a light source. 
+- Synthesized surfaces not directly lit by a light source appear unrealistically dark or completely black.
+- Real-world lighting includes contributions from indirect light
+
+Indirect Illumination is light that includes contributions from reflections or scattering events before reaching a surface
+- This includes 
