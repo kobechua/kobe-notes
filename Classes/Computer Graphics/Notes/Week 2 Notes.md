@@ -18,6 +18,7 @@ $$
 N is equal to the vector from center to surface point divided by the **vector magnitude** of the vector from center to surface point. We divide by magnitude to normalize the vector
 
 #### Triangle Calculation
-We can compute the surface normal for a triangle starting with its 3 vertices. We begin by defining two edge vectors relative to a common vertex. 
+We can compute the surface normal for a triangle starting with its 3 vertices. We begin by defining two edge vectors E_1 na relative to a common vertex. 
+![[Pasted image 20260605132732.png]]
 
 
