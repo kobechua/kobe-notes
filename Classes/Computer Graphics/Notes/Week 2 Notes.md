@@ -30,4 +30,6 @@ $N = \frac{N}{||N||}$
 Direction of $N$ depends on vertex winding order
 
 #### Surface Normals: Box (AABB)
-To determine the surface normal, the slabs should track which axis causes updates to $t_{min}$ and $t_{max}$ 
+To determine the surface normal, the slabs should track which axis causes updates to $t_{min}$ and $t_{max}$. By doing so we can identify  the plane the ray first intersects in the case of a hit
+
+
