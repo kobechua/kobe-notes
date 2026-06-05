@@ -30,4 +30,4 @@ $N = \frac{N}{||N||}$
 Direction of $N$ depends on vertex winding order
 
 #### Surface Normals: Box (AABB)
- 
+
