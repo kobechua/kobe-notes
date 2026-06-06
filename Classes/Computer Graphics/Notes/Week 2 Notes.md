@@ -50,6 +50,13 @@ Global Illumination refers to the comprehensive simulation of light in a scene i
 - Used to achieve photorealism
 
 ### Diffuse Shading Basics
+#### Lambertian Model
 - Lambertian model represents matte surfaces like paper and unfinished wood
 - Follows Lambert's cosine law, where intensity is proportional to $cos\theta$ 
-- $c = c_r \cdot c_t \cd
+- $c = c_r \cdot c_t \cdot max(0,n\cdot l)$
+- $c_r$ = surface reflectance
+- $c_l$ = light intensity
+- $n$ = surface normal (unit vector)
+- $l$ = direction towards light (unit vector)
+
+
