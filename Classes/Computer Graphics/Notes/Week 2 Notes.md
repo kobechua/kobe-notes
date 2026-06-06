@@ -48,4 +48,8 @@ Indirect Illumination is light that includes contributions from reflections or s
 Global Illumination refers to the comprehensive simulation of light in a scene including both direct and indirect illumination. 
 - Components include direct and indirect illumination
 - Used to achieve photorealism
-- 
+
+### Diffuse Shading Basics
+- Lambertian model represents matte surfaces like paper and unfinished wood
+- Follows Lambert's cosine law, where intensity is proportional to $cos\theta$ 
+- $c = c_r \cdot c_t \cd
