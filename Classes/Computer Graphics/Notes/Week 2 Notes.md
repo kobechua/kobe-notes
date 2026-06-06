@@ -59,4 +59,9 @@ Global Illumination refers to the comprehensive simulation of light in a scene i
 - $n$ = surface normal (unit vector)
 - $l$ = direction towards light (unit vector)
 
+- Diffuse shading can be used for both direct and global illumination
+- When modeling direct lighting, parts of the scene that aren't directly lit often appear too dark
+- Global Illumination accounts for both direct light sources and indirect light paths
+### Ambient Illumination
+- Ambient illumination is a technique for improving direct lighting models
 
