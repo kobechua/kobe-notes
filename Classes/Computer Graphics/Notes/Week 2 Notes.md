@@ -103,5 +103,6 @@ Global Illumination refers to the comprehensive simulation of light in a scene i
 	$e = -|D|$
 	$r$: reflection vector
 
+### Reflection Vector
 
 
