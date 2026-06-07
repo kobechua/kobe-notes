@@ -152,4 +152,8 @@ $$
 - No attenuation: constant intensity
 	- good for sunlight
 - Linear: $A = \frac{1}{d}$
-- Quadratic: $A = \frac{1}{a}
+- Quadratic: $A = \frac{1}{a+bd+cd^2}$
+
+$$
+c = c_r c_a + \sum_{i=1}^{N} [c_r \cdot c_{li} \cdot max(0, n \cdot l_i) + c_p \cdot c_{li} \cdot max(0, n\cdot h_i)^P]
+$$
