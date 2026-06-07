@@ -152,4 +152,4 @@ $$
 - No attenuation: constant intensity
 	- good for sunlight
 - Linear: $A = \frac{1}{d}$
-- QU
+- Quadratic: $A = \frac{1}{a}
