@@ -98,5 +98,7 @@ Global Illumination refers to the comprehensive simulation of light in a scene i
 - Phong Lighting Equation
 	$c = c_r \cdot (c_a + c_l \cdot max(0, n \cdot l)) + c_p \cdot c_l \cdot max(0, e \cdot r)^p$
 	$c_p$: specular reflectance
-	$p$: Pong exponent to control the sharpness of highligh
+	$p$: Pong exponent to control the sharpness of highlight
+	$e$: Unit vector
+	
 
