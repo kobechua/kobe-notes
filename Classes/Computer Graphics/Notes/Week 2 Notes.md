@@ -76,10 +76,16 @@ Global Illumination refers to the comprehensive simulation of light in a scene i
 
 ### Implementing Diffuse and Specular Shading
 - Calculate all vectors in world space for accurate results
-- Handle back-facing normals using $max(0, n\cdot 1)$ 
+- Handle back-facing normals using $max(0, n\cdot l)$ 
+	- $n$ represents the surface normal
+	- $l$ represents the light direction
 	- Or if two-sided, flip the normal if facing away
 - Adding an ambient term:
-	$c = c_2 \cdot (c_a + c_t \cdot max(0, n \cdot 1))$
-$c_r$: diffuse reflectance
-$c_a$: ambient intensity
-$
+	$c = c_2 \cdot (c_a + c_t \cdot max(0, n \cdot l))$
+	
+	$c_r$: diffuse reflectance
+	$c_a$: ambient intensity
+	$c_t$: incoming light color
+- Improves realism by simulating global illumination effects
+- Does not enforece conservation of energy
+
