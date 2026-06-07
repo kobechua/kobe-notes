@@ -111,3 +111,11 @@ Global Illumination refers to the comprehensive simulation of light in a scene i
 - Specular Highlights occur when the viewer aligns with the reflection direction.
 - Later we can use this equation for reflection rays where l is replaced by $v = -D$ where $D$ is the eye ray
 
+#### Reflection Vector Derivation
+Reflection vector r is defined as
+	$r = -l + 2(l \cdot n)n$
+	$l$: light vector
+	$n$: surface normal (unit vector)
+	$r$: reflection vector (desired output, points away from the surface)
+
+Step 1
