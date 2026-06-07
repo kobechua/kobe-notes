@@ -124,3 +124,7 @@ Reflection vector r is defined as
 
 ![[Pasted image 20260607142729.png]]
 
+![[Pasted image 20260607144125.png]]
+
+### Blinn-Phong Shading
+- Optimized Phong Shading by James Blinn, by replacing the reflection vector with halfwary vec
