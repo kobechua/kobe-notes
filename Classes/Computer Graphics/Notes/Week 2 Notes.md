@@ -118,4 +118,9 @@ Reflection vector r is defined as
 	$n$: surface normal (unit vector)
 	$r$: reflection vector (desired output, points away from the surface)
 
-Step 1
+![[Pasted image 20260607142701.png]]
+
+![[Pasted image 20260607142719.png]]
+
+![[Pasted image 20260607142729.png]]
+
