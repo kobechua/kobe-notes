@@ -136,3 +136,9 @@ Reflection vector r is defined as
 	- Phong exponent $\approx$ 4 times the Blinn-Phong exponent
 ### Multiple Light Sources
 Superposition Principle
+- The total light contribution is the sum of the effects from all individual light sources
+- Easily extend the shading model to handle $N$ point light sources
+- Applied to Blinn-Phone equation
+$$
+c = c_r c_a + \e{}{}
+$$
