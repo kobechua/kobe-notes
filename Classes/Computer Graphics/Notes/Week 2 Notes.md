@@ -108,5 +108,6 @@ Global Illumination refers to the comprehensive simulation of light in a scene i
 	$r = -l + 2(l \cdot n)n
 - Derived geometrically from the light direction ($l$) and surface normal ($n$)
 - Used to determine alignment with viewer direction ($e \cdot r$) 
-- 
+- Specular Highlights occur when the viewer aligns with the reflection direction.
+- Later we can use this equation for reflection rays 
 
