@@ -92,5 +92,9 @@ Global Illumination refers to the comprehensive simulation of light in a scene i
 - Does not enforce conservation of energy
 
 #### Phong Shading
-
+- Models highlights on shiny surfaces
+- Is a direct illumination method
+- Incorporates reflection and viewer direction to simulate specular highlights
+- Phong Lighting Equation
+	$c = c_r \cdot (c_a + c_l \cdot max(0, n \cdot l) + c_p \cdot)
 
