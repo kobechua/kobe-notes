@@ -73,3 +73,8 @@ Global Illumination refers to the comprehensive simulation of light in a scene i
 - Occurs when light reflects off a surface in a single dominant direction like a mirror.
 - This type of reflection is highly directional and produces focused highlights
 - Visible when the view direction aligns with the angle of reflection of the light source off the surface
+
+### Implementing Diffuse and Specular Shading
+- Calculate all vectors in world space for accurate results
+- Handle back-facing normals using $max(0, n\cdot 1)$ 
+	- Or if two-sided, 
