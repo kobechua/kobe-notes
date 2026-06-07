@@ -134,4 +134,5 @@ Reflection vector r is defined as
 	- avoiding need to compute reflection vector
 	- the specular highlight is software than normal Phong Shading, which is sometimes desirable
 	- Phong exponent $\approx$ 4 times the Blinn-Phong exponent
-	- 
+### Multiple Light Sources
+Superposition Principle
