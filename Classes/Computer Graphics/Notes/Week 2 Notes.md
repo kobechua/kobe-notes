@@ -106,5 +106,6 @@ Global Illumination refers to the comprehensive simulation of light in a scene i
 ### Reflection Vector
 - Reflection vector r is defined as
 	$r = -l + 2(l \cdot n)n
-- Derived geometrically from the light direction ($l$)
+- Derived geometrically from the light direction ($l$) and surface normal ($n$)
+- Used to determine alignment with viewer direction ($e \cdot r$) 
 
