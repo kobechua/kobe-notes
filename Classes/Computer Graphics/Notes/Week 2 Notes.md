@@ -145,3 +145,8 @@ $$
 	$c_r$: diffuse reflectance
 	$c_a$: ambient intensity
 	$c_t$: incoming light color
+### Distance-Based Light Attenuation
+- Real-world light sources lose intensity with distance
+- Without attenuation, distant lights appear unrealistically strong.
+- Attenuation simulates spreading and absorption of light
+- 
