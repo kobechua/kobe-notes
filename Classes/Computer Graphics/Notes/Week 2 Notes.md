@@ -149,4 +149,7 @@ $$
 - Real-world light sources lose intensity with distance
 - Without attenuation, distant lights appear unrealistically strong.
 - Attenuation simulates spreading and absorption of light
-- 
+- No attenuation: constant intensity
+	- good for sunlight
+- Linear: $A = \frac{1}{d}$
+- QU
