@@ -134,7 +134,7 @@ Reflection vector r is defined as
 	- avoiding need to compute reflection vector
 	- the specular highlight is software than normal Phong Shading, which is sometimes desirable
 	- Phong exponent $\approx$ 4 times the Blinn-Phong exponent
-### Multiple Light Sources
+### Handling Multiple Light Sources
 Superposition Principle
 - The total light contribution is the sum of the effects from all individual light sources
 - Easily extend the shading model to handle $N$ point light sources
@@ -142,3 +142,6 @@ Superposition Principle
 $$
 c = c_r c_a + \sum_{i=1}^{N} [c_r \cdot c_{li} \cdot max(0, n \cdot l_i) + c_p \cdot c_{li} \cdot max(0, n\cdot h_i)^P]
 $$
+	$c_r$: diffuse reflectance
+	$c_a$: ambient intensity
+	$c_t$: incoming light color
