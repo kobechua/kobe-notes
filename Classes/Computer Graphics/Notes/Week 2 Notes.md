@@ -63,7 +63,7 @@ Global Illumination refers to the comprehensive simulation of light in a scene i
 - When modeling direct lighting, parts of the scene that aren't directly lit often appear too dark
 - Global Illumination accounts for both direct light sources and indirect light paths
 ### Ambient Illumination
-- Ambient illumination is a technique for improving direct lighting models
+- Ambient illumination is a technique for improving direct lighting models. If prevents shadows from appearing completely black even when indirect lighting is not explicitly calculated
 - We add a constant baseline illumination $c_a$ to simulate indirect light and crudely approximate global lighting effects
 - Ambient illumination often supplement diffuse direct lighting
 - This keeps shadows soft and scenes visually comprehensible
