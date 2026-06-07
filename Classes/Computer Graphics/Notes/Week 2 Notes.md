@@ -69,4 +69,7 @@ Global Illumination refers to the comprehensive simulation of light in a scene i
 - This keeps shadows soft and scenes visually comprehensible
 
 ### Specular Reflection
-- Occurs when light reflects off a surface in a single dominant direction like a mirror. 
+- Specular reflections are reflections off shiny or reflective surfaces
+- Occurs when light reflects off a surface in a single dominant direction like a mirror.
+- This type of reflection is highly directional and produces focused highlights
+- Visible whne t
