@@ -140,5 +140,5 @@ Superposition Principle
 - Easily extend the shading model to handle $N$ point light sources
 - Applied to Blinn-Phone equation
 $$
-c = c_r c_a + \e{}{}
+c = c_r c_a + \sum_{i=1}^{N}[c_r \c]
 $$
