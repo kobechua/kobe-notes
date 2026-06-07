@@ -127,10 +127,11 @@ Reflection vector r is defined as
 ![[Pasted image 20260607144125.png]]
 
 ### Blinn-Phong Shading
-- Optimized Phong Shading by James Blinn, by replacing the reflection vector with halfway vector, efficiently approximating the specular component
+- Optimized Phong Shading by James Blinn, by replacing the reflection vector with **halfway vector**, efficiently approximating the specular component
 - $h = \frac{l+e}{||l+e||}$
-- $c = c_r \cdot c_t \cdot max(0,n\cdot l)$
+- $c = c_r \cdot c_t \cdot max(0,n\cdot l) + c_p \cdot c_l \cdot max(0,n\cdot h)^p$
 - Advantages include 
 	- avoiding need to compute reflection vector
 	- the specular highlight is software than normal Phong Shading, which is sometimes desirable
-	- Phong exponent $\approx$ 4 times the 
+	- Phong exponent $\approx$ 4 times the Blinn-Phong exponent
+	- 
