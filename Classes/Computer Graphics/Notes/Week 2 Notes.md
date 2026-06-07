@@ -68,3 +68,5 @@ Global Illumination refers to the comprehensive simulation of light in a scene i
 - Ambient illumination often supplement diffuse direct lighting
 - This keeps shadows soft and scenes visually comprehensible
 
+### Specular Reflection
+- Occurs when light reflects off a surface in a single dominant direction like a mirror. 
