@@ -216,6 +216,8 @@ Frames can be represented with transformations
 - Uniform scaling is when the same scaling factor is applied to all axes
 - Non-uniform scaling is when different scaling factors are applied to all axes
 
+### Scaling Equations
+
 Scaling factors are denotes as $s_x$ and $s_y$ for the corresponding axes
 - $s_x$ = 1 no change
 - $s_x$ < 1 Contracts along x axis
@@ -228,4 +230,9 @@ Uniform scaling equations are as follows:
 - $x' = s \cdot x$, $y' = s \cdot y$
 - Where we expand/contract the object uniformly in both directions
 
-Uniform scaling changes the size, but not the shape. Non-uniform scaling distorts the proportions of an object
+Uniform scaling changes the size, but not the shape. Non-uniform scaling distorts the proportions of an object.
+
+### Concerns With Scaling
+Annihilation, which is degeneracy due to scaling  to zero, resulting in an object or vector collapsing into a lower dimensional subspace or point
+
+Extreme scaling, when very small or large scaling factors lead to information loss 
