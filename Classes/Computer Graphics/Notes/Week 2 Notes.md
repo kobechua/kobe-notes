@@ -235,4 +235,5 @@ Uniform scaling changes the size, but not the shape. Non-uniform scaling distort
 ### Concerns With Scaling
 Annihilation, which is degeneracy due to scaling  to zero, resulting in an object or vector collapsing into a lower dimensional subspace or point
 
-Extreme scaling, when very small or large scaling factors lead to information loss 
+Extreme scaling, when very small or large scaling factors lead to information loss due to floating point rounding
+
