@@ -186,4 +186,14 @@ Frames can be represented with transformations
 	- scale
 	- shear
 	- reflection
+- **Homogeneity** means that scaling a vector before applying the transformation is equivalent to scaling the result of transforming the original vector.
+- **Additivity** means that a transformation can be applied separately to two vectors, and the sum of the results will be the same as applying the transformation to the sum of the original two vectors
 - Translation does preserve these
+
+### Conformal Linear Transformations
+- Linear transformations that also preserve angels and shape
+	- Identity
+	- Rotation
+	- Uniform Scale
+	- Reflection
+- This does not i
