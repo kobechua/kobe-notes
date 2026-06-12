@@ -161,3 +161,12 @@ $$
 - Both models are evaluated at ray-object intersection points. Diffuse shading requires **surface normal** and **light direction** at the intersection
 - Phong shading adds computation for the reflection vector and view direction.
 - Highlights depend on the viewer's perspective, making Phong shading view-dependent
+
+### Diffuse Shading vs Phong Shading
+
+**Diffuse shading** is simple and computationally efficient
+- Its more suitable for matte surfaces
+
+**Phong shading** extends diffuse shading
+- It adds realism with specular highlights
+- Has a higher computational cost due to the reflection vector and exponentiation
