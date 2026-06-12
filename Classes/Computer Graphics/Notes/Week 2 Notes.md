@@ -216,3 +216,9 @@ Frames can be represented with transformations
 - Uniform scaling is when the same scaling factor is applied to all axes
 - Non-uniform scaling is when different scaling factors are applied to all axes
 
+Scaling factors are denotes as $s_x$ and $s_y$ for the corresponding axes
+- $s_x$ = 1 no change
+- $s_x$ < 1 Contracts along x axis
+- $s_x$ > 1 Contracts along y axis
+
+General scaling equation
