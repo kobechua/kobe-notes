@@ -221,4 +221,8 @@ Scaling factors are denotes as $s_x$ and $s_y$ for the corresponding axes
 - $s_x$ < 1 Contracts along x axis
 - $s_x$ > 1 Contracts along y axis
 
-General scaling equation
+General scaling equations are as follows:
+- $x' = s_x \cdot x$, $y' = s_y \cdot y$ 
+Uniform scaling equations are as follows:
+- $x' = s \cdot x$, $y' = s \cdot y$
+- Where we expand/c
