@@ -196,4 +196,13 @@ Frames can be represented with transformations
 	- Rotation
 	- Uniform Scale
 	- Reflection
-- This does not i
+- This does not include
+	- Non-uniform scale
+	- Shear
+	- Translation
+
+### Similarity Transformation
+- A transformation that preserves the shape and proportions of objects, allowing for changes in position, orientation and uniform scale.
+	- Preserves angles and proportional distances
+- Sometimes called a **Rigid Transform/Rigid Body Transform**, but formally, a rigid transform does **NOT** include scaling
+- 
