@@ -158,4 +158,6 @@ $$
 c = c_r c_a + \sum_{i=1}^{N} A_i \cdot [c_r \cdot c_{li} \cdot max(0, n \cdot l_i) + c_p \cdot c_{li} \cdot max(0, n\cdot h_i)^P]
 $$
 ### Direct Light Shading in Ray Tracing
-- Both models are evaluated at ray-object intersection points
+- Both models are evaluated at ray-object intersection points. Diffuse shading requires **surface normal** and **light direction** at the intersection
+- Phong shading adds computation for the reflection vector and view direction.
+- Highlights depend on the viewer's perspective, making Phong shading view-dependent
