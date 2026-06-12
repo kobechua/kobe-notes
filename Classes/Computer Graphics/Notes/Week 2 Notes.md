@@ -1,4 +1,4 @@
-### Surface Shading
+# Surface Shading
 - Transforms flat geometry in to more visually compelling scenes, done by enhancing perception of depth and material properties, helping us interpret shapes and surfaces in a realistic way.
 - We focus on two core models **Diffuse Shading** and **Phong Shading**
 
@@ -163,10 +163,11 @@ $$
 - Highlights depend on the viewer's perspective, making Phong shading view-dependent
 
 ### Diffuse Shading vs Phong Shading
-
 **Diffuse shading** is simple and computationally efficient
 - Its more suitable for matte surfaces
 
 **Phong shading** extends diffuse shading
 - It adds realism with specular highlights
-- Has a higher computational cost due to the reflection vector and exponentiation
+- Has a higher computational cost due to the reflection vector and exponentiation. Can be improved with Blinn-Phong variant
+
+# Transformations
