@@ -177,7 +177,7 @@ Frames can be represented with transformations
 
 	"A frame consists of an origin and basis vectors within a Euclidean vector space. It can be thought of as a frame of reference for describing the position of points and vectors within the space. Frame coordinates can be used to create points in the vector space. Frame coordinate scalars can be used to scale the frame's basis vectors, which are then summed and offset to determine the point within the Euclidean vector space. Frames often represented as a transformation matrix."
 
-### Linear Transformations
+## Linear Transformations
 - Preserves linearity
 - Preserves the origin
 - They are transformations that preserve additivity and homogeneity
@@ -210,4 +210,9 @@ Frames can be represented with transformations
 - Preserves collinearity and parallelism, but does not meet the formal requirements of linear transformations.
 	- This is because the origin is not preserved if the affine transformation is applied
 - A combination of one or more linear transformations followed by a translation
-	- Example: a combination of rotat
+	- Example: a combination of rotations, scales, and/or shearing could be followed by a translation.
+## Scale
+- Scaling changes the size of an object by expanding or contracting its coordinates
+- Uniform scaling is when the same scaling factor is applied to all axes
+- Non-uniform scaling is when different scaling factors are applied to all axes
+
