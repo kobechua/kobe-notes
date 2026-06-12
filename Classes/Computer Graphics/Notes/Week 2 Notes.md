@@ -174,3 +174,16 @@ $$
 A transformation transforms points or vectors to a new configuration. They are often paired with matrices
 
 Frames can be represented with transformations
+
+	"A frame consists of an origin and basis vectors within a Euclidean vector space. It can be thought of as a frame of reference for describing the position of points and vectors within the space. Frame coordinates can be used to create points in the vector space. Frame coordinate scalars can be used to scale the frame's basis vectors, which are then summed and offset to determine the point within the Euclidean vector space. Frames often represented as a transformation matrix."
+
+### Linear Transformations
+- Preserves linearity
+- Preserves the origin
+- They are transformations that preserve additivity and homogeneity
+	- identity
+	- rotation
+	- scale
+	- shear
+	- reflection
+- Translation does preserve these
