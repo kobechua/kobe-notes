@@ -223,6 +223,9 @@ Scaling factors are denotes as $s_x$ and $s_y$ for the corresponding axes
 
 General scaling equations are as follows:
 - $x' = s_x \cdot x$, $y' = s_y \cdot y$ 
+
 Uniform scaling equations are as follows:
 - $x' = s \cdot x$, $y' = s \cdot y$
-- Where we expand/c
+- Where we expand/contract the object uniformly in both directions
+
+Uniform scaling changes the size, but not the shape. Non-uniform scaling distorts the proportions of an object
