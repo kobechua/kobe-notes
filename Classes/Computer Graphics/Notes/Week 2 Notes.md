@@ -171,3 +171,6 @@ $$
 - Has a higher computational cost due to the reflection vector and exponentiation. Can be improved with Blinn-Phong variant
 
 # Transformations
+A transformation transforms points or vectors to a new configuration. They are often paired with matrices
+
+Frames can be represented with transformations
