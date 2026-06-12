@@ -194,7 +194,7 @@ Frames can be represented with transformations
 - Linear transformations that also preserve angels and shape
 	- Identity
 	- Rotation
-	- Uniform Scale
+	- Uniform Scale - especially important to qualify as a similarity transform
 	- Reflection
 - This does not include
 	- Non-uniform scale
@@ -205,4 +205,9 @@ Frames can be represented with transformations
 - A transformation that preserves the shape and proportions of objects, allowing for changes in position, orientation and uniform scale.
 	- Preserves angles and proportional distances
 - Sometimes called a **Rigid Transform/Rigid Body Transform**, but formally, a rigid transform does **NOT** include scaling
-- 
+
+### Affine Transformations
+- Preserves collinearity and parallelism, but does not meet the formal requirements of linear transformations.
+	- This is because the origin is not preserved if the affine transformation is applied
+- A combination of one or more linear transformations followed by a translation
+	- Example: a combination of rotat
