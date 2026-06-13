@@ -377,15 +377,17 @@ Disadvantages
 - Must remember to correctly configure points versus vectors
 
 ## Homogeneous Scale and Rotation
-- 2D scaling with homogeneous matrix
+### 2D scaling with homogeneous matrix
 - Scaling can be represented with homogeneous matrix as well:
 $S = \begin{bmatrix}s_x \ 0 \ 0 \\ 0 \ s_y \ 0 \\ 0 \ 0 \ 1 \end{bmatrix}$   $p' = S \cdot p = \begin{bmatrix}s_x \ 0 \ 0 \\ 0 \ s_y \ 0 \\ 0 \ 0 \ 1 \end{bmatrix} \begin{bmatrix}x \\ y \\ 1 \end{bmatrix} = \begin{bmatrix} s_x \cdot x \\ s_y \cdot y \\ 1\end{bmatrix}$
 
-- 3D scaling with homogeneous matrix
+### 3D scaling with homogeneous matrix
 
 $S = \begin{bmatrix} s_x \ 0 \ 0 \ 0 \\ 0 \ s_y \ 0 \ 0 \\ 0 \ 0 \ s_z \ 0 \\ 0 \ 0 \ 0 \ 1\end{bmatrix}$
 
 $p = \begin{bmatrix}x \\ y \\ z \\ 1\end{bmatrix}$, $p' = S \cdot p = \begin{bmatrix} s_x \ 0 \ 0 \ 0 \\ 0 \ s_y \ 0 \ 0 \\ 0 \ 0 \ s_z \ 0 \\ 0 \ 0 \ 0 \ 1\end{bmatrix} \cdot \begin{bmatrix}x \\ y \\ z \\ 1\end{bmatrix} = \begin{bmatrix} s_x \cdot x \\ s_y \cdot y \\ s_z \cdot z \\ 1 \end{bmatrix}$
+
+### 2D Rotation with Homogeneous Matrix
 
 
 
