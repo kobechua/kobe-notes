@@ -511,4 +511,6 @@ Why does it work?
 - Rotations are orthogonal and preserve scaling relationships.
 
 ### Shear from Chaining Non-Uniform Scales and Rotations
-
+Scenario:
+- Apply two transformations: $R_1 \cdot S_1$ followed by $R_2 \cdot S_2$ 
+- $S_1 = diag(s_{x1} s_{y1})$, $S_2 = diag(s_{x2},)
