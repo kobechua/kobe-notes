@@ -341,5 +341,13 @@ $p' = R(\theta) \cdot p = \begin{bmatrix} cos\theta \ -sin\theta \\ sin\theta \ 
 
 ### Basis Vector
 - The columns of the matrix represent the **basic vectors** of the coordinate system or frame
-- The standard basis is reflected in the identity matrix:
-	- \
+- The **standard basis** is reflected in the identity matrix:
+	- $\begin{bmatrix}1 \ 0 \\ 0 \ 1\end{bmatrix}$
+	- The $x$ axis is: (1, 0)
+	- The $y$ axis is: (0, 1)
+- Effect of transformations:
+	- Multiplication by a transformation matrix changes the basis vectors
+		- Rotation: Rotates the basis vectors
+		- Scaling: Changes the magnitude of the basis vectors
+
+## Homogeneous Coordinates
