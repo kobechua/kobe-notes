@@ -489,4 +489,8 @@ Benefits in practice
 ## Compound Transformations
 Compound transformations are sequences of transformations applied in some order. These can include translation, rotation, scaling, etc.
 
-Order matters: transformations are not commutative eg
+Order matters: transformations are not commutative eg. $T \cdot R \ne R \cdot T$
+
+### How does Order Affect Compound Transformations
+Why does order matter?
+- Matrix multiplication is not commut
