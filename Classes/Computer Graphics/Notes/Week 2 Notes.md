@@ -455,4 +455,13 @@ Example: Pitching $90^\circ$ causes the roll and yaw axes to align
 ### Axis-Angle Rotation
 An **Axis-Angle Rotation** is a rotation using a single axis of rotation represented by a unit vector. This axis can be a primary axis (x, y, or z) or an arbitrary axis chosen for the specific rotation. The rotation is defined by an angle around that axis. 
 
-A key benefit to this approach is that it avoids gimbal lock, which can be 
+A key benefit to this approach is that it avoids gimbal lock, which can be an issue in other methods like Euler angles
+
+### Arbitrary Axis-Angle Rotation
+The main concept behind **Arbitrary Axis-Angle Rotation** is to break it down into smaller steps using intermediate coordinate systems.
+
+The Approach:
+1. Align the rotation axis with a major axis:
+	- Apply a series of transformations to align the arbitrary axis with the z-axis
+2. Perform rotation
+	- 
