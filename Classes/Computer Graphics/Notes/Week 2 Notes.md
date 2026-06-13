@@ -622,4 +622,22 @@ Structurally, a scene graph is represented as a Directed Acyclic Graph, or DAG.
 	- Saucer: Transformation: $M_{saucer}$ relative to table
 	- Coffee Cup: Transformation: $M_{cup}$ relative to saucer
 - Transformation chain is as follows
-	- $M_{cup_local_to_world} = M_{room} \cdot $
+	- $M_{cup\_local\_to\_world} = M_{room} \cdot M_{table} \cdot M_{saucer} \cdot M_{cup}$
+- We can translate the table and all the objects on it will move with it
+
+### Modern Scene Graphs
+- No longer common to impose rigid hierarchy for the entire scene
+- Traditional hierarchies are less flexible for applications like physics simulations where objects need to move independently
+- Hiereachical spatial relatinshops are still useful for compounding objects, where parts are animated independently byt are still connected spatially.
+
+## Matrix Stacks
+The purpose of the matrix stack is to facilitate hierarchical transformations in scene graph traversal
+
+Stack Operations:
+- `pushMatrix()`: Save the current transformation matrix and make a copy to the top
+- `popMatrix()`: Restore the previous transformation matrix
+
+New transformations are multiplied to the right side of the active transformation.
+$$
+M_{new} = M_{current} \cdot T
+$$
