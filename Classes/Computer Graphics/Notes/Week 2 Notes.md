@@ -289,5 +289,8 @@ $\theta = acrtan(\frac{y}{x})$, where $v = \begin{bmatrix} x\\ y \end{bmatrix}$
 A special function called `atan2(y,x)` is used in graphics APIs to separately track the sign of x and y to solve the correct angle for all four quadrants and avoid a divide by zero
 
 ## Translation
+- Translation moves a point $p$ in space by adding a displacement vector $T$
+- The resulting point $p'$ is the original point $p$ shifted by the vector $t$
 
+$p = \begin{bmatrix} x \\ y \end{bmatrix}$, $t = \begin{b,a}
 
