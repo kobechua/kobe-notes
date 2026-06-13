@@ -658,4 +658,9 @@ Global Transformation:
 ### Building Transformations via Immediate-Mode API
 ![[Pasted image 20260613175756.png]]
 
-
+### Building a Scene Graph Transformation Declaratively
+- A Declarative Scene Graph is defined in a format such as JSON, visual graph editor, etc.
+- The structure specifies geometry, local transformations, and parent/child relationships
+- Before rendering, the scene graph is analyzed, and local-to-world and world-to-local transformations are generated and cached.
+- A separate rendering pass leverages the cached transforms
+- Logic similar to a matrix stack is used to generate the transformations, but this is typically an internal process
