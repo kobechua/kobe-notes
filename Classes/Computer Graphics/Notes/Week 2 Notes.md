@@ -470,4 +470,15 @@ The main concept behind **Arbitrary Axis-Angle Rotation** is to break it down in
 This process allows for arbitrary axis rotations in a manageable way
 
 ### Quaternions
-A **quaternion** is a compact 4D representation of rotation using 
+A **quaternion** is a compact 4D representation of rotation using a scalar and 3D vector
+
+Why use quaternions 
+- avoid gimbal lock
+- efficiently interpolating rotations
+- is computationally stable for chaining rotations
+
+### Quaternions in Transformation workflow
+Steps to combine with transformation matrices
+- Convert quaternion angle representation to rotation matrix
+- Combine with translation and scaling for a complete transformation matrix
+- Use interpolation (SLERP) of quaternion for smooth transiti
