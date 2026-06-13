@@ -260,7 +260,11 @@ Shear is linear, points remain on the same line relative to the direction of the
 Horizontal shear
 $x' = x + sh_x \cdot y$
 $y' = y$
-$sh_x = tan\theta$
-The x and y axes are no longer orthogonal, 
 
+Vertical shear
+$x' = x$
+$y' = y + sh_y \cdot x$
 
+The x and y axes are no longer orthogonal; shear distorts the right angle between them
+
+### 2D Rotation
