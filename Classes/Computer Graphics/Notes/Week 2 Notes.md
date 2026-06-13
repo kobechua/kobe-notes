@@ -385,7 +385,8 @@ $S = \begin{bmatrix}s_x \ 0 \ 0 \\ 0 \ s_y \ 0 \\ 0 \ 0 \ 1 \end{bmatrix}$   $p'
 
 $S = \begin{bmatrix} s_x \ 0 \ 0 \ 0 \\ 0 \ s_y \ 0 \ 0 \\ 0 \ 0 \ s_z \ 0 \\ 0 \ 0 \ 0 \ 1\end{bmatrix}$
 
-$p = \begin{bmatrix}x \\ y \\ z \\ 1\end{bmatrix}$, $p' = S \cdot p = \begin{bmatrix} s_x \ 0 \ 0 \ 0 \\ 0 \ s_y \ 0 \ 0 \\ 0 \ 0 \ s_z \ 0 \\ 0 \ 0 \ 0 \ 1\end{bmatrix} \cdot \begin{bmatrix}x \\ y \\ z \\ 1\end{bmatrix} = \begin{bmatrix} s_x \cdot x \\ s_y \cdot y \\ s_z \
+$p = \begin{bmatrix}x \\ y \\ z \\ 1\end{bmatrix}$, $p' = S \cdot p = \begin{bmatrix} s_x \ 0 \ 0 \ 0 \\ 0 \ s_y \ 0 \ 0 \\ 0 \ 0 \ s_z \ 0 \\ 0 \ 0 \ 0 \ 1\end{bmatrix} \cdot \begin{bmatrix}x \\ y \\ z \\ 1\end{bmatrix} = \begin{bmatrix} s_x \cdot x \\ s_y \cdot y \\ s_z \cdot z \\ 1 \end{bmatrix}$
+
 
 
 
