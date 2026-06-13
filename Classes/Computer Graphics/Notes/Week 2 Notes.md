@@ -334,4 +334,12 @@ shearY(\theta) = \begin{bmatrix} 1 \ 0 \\ tan\theta \   1\end{bmatrix}
 $$
 ### Rotation using Matrix
 $R(\theta) = \begin{bmatrix} cos\theta \ -sin\theta \\ sin\theta \ cos\theta \end{bmatrix}$ 
-$p' = R(\theta) \cdot p = \begin{bmatrix} cos\theta \ -sin\theta \\ sin\theta \ cos\theta \end{bmatrix}$ 
+$p' = R(\theta) \cdot p = \begin{bmatrix} cos\theta \ -sin\theta \\ sin\theta \ cos\theta \end{bmatrix} \begin{bmatrix} x \\ y \end{bmatrix} = \begin{bmatrix} xcos\theta \ -ysin\theta \\ xsin\theta \ ycos\theta \end{bmatrix}$
+
+- $p_x' = p_xcos\theta - p_y sin\theta$
+- $p_y' = p_x sin\theta - p_y cos\theta$
+
+### Basis Vector
+- The columns of the matrix represent the **basic vectors** of the coordinate system or frame
+- The standard basis is reflected in the identity matrix:
+	- \
