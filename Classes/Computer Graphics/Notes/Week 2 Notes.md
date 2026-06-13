@@ -292,5 +292,8 @@ A special function called `atan2(y,x)` is used in graphics APIs to separately tr
 - Translation moves a point $p$ in space by adding a displacement vector $T$
 - The resulting point $p'$ is the original point $p$ shifted by the vector $t$
 
-$p = \begin{bmatrix} x \\ y \end{bmatrix}$, $t = \begin{b,a}
+$p = \begin{bmatrix} x \\ y \end{bmatrix}$, $t = \begin{bmatrix} t_x\\ t_y \end{bmatrix}$ 
+
+$p' = p + t = \begin{bmatrix} x \\ y \end{bmatrix} + \begin{bmatrix} t_x\\ t_y \end{bmatrix} = \begin{bmatrix} x+t_x \\ y + t_y \end{bmatrix}$
+
 
