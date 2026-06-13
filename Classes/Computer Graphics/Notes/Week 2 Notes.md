@@ -550,4 +550,9 @@ Scales
 Rotations
 - Orthogonal Property: $R^{-1} = R^T$ (Transpose equals inverse)
 - Rotating back by the same angle undoes the rotation
-- R refewres to the 3x3 roation matrix and is in the upper left 3x3 submatrix of a 4x4 homogeneous r
+- R refersto the 3x3 rotation matrix and is in the upper left 3x3 submatrix of a 4x4 homogeneous rotation matrix
+Translations
+- The inverse of $T(t_x, t_y, t_z) = T(-t_x, -t_y, -t_z)$
+- Shifting in the opposite direction undoes the translation
+
+### Inverting Composite Transformations
