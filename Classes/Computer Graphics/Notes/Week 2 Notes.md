@@ -568,5 +568,13 @@ If known to be a similarity transform, decomposition is straightforward
 One could use the Singular Value Decomposition to
 - Decompose transformation into components
 - Invert each component stepwise
-SVD is robust but computationally expensive
+SVD is robust but computationally expensive. It is generally avoided in high performance computer graphics
 
+### When Inverses Do Not Exist
+- Annihilation
+	- Scaling by zero removes dimensionality
+	- Implication: no inverse exists for such transforms
+- Determinant Test:
+	- Determinant: indicates the scaling factor of a transform and reveals if any dimensions are collapsed,
+	- If det(T) = 0 the transformation is non-invertible
+	- Losee of dim
