@@ -317,5 +317,7 @@ Where $k$ iterates over the shared dimension $b$
 - Scale as a transformation matrix:
 $S = \begin{bmatrix} s_x 0 \\ 0 s_y\end{bmatrix}$
 $p' = S \cdot p$ 
-$p = \begin{bmatrix} x \\ y \end{bmatrix}$ $p' = \begin{bmatrix} 
+$p = \begin{bmatrix} x \\ y \end{bmatrix}$ $p' = \begin{bmatrix} x' \\ y' \end{bmatrix}$
+$\begin{bmatrix} x' \\ y'\end{bmatrix} = \begin{bmatrix} s_x 0 \\ 0 s_y\end{bmatrix} \begin{bmatrix} x \\ y\end{bmatrix} = \begin{bmatrix} s_x \cdot x \\ s_y \cdot y \end{bmatrix}$
+
 
