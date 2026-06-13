@@ -318,6 +318,15 @@ Where $k$ iterates over the shared dimension $b$
 $S = \begin{bmatrix} s_x 0 \\ 0 s_y\end{bmatrix}$
 $p' = S \cdot p$ 
 $p = \begin{bmatrix} x \\ y \end{bmatrix}$ $p' = \begin{bmatrix} x' \\ y' \end{bmatrix}$
-$\begin{bmatrix} x' \\ y'\end{bmatrix} = \begin{bmatrix} s_x 0 \\ 0 s_y\end{bmatrix} \begin{bmatrix} x \\ y\end{bmatrix} = \begin{bmatrix} s_x \cdot x \\ s_y \cdot y \end{bmatrix}$
 
+$\begin{bmatrix} x' \\ y'\end{bmatrix} = \begin{bmatrix} s_x \ 0 \\ 0 \ s_y\end{bmatrix} \begin{bmatrix} x \\ y\end{bmatrix} = \begin{bmatrix} s_x \cdot x \\ s_y \cdot y \end{bmatrix}$
 
+### Identity Transformation
+
+$I = \begin{bmatrix} 1 \ 0 \\ 0 \ 1 \end{bmatrix}$
+
+### Shear 
+
+$$
+shearX(\theta) = \begin{bmatrix} \e
+$$
