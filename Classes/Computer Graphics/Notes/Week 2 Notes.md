@@ -268,3 +268,5 @@ $y' = y + sh_y \cdot x$
 The x and y axes are no longer orthogonal; shear distorts the right angle between them
 
 ### 2D Rotation
+Rotation is when we move a point around the origin by an angle $\theta$
+A point 
