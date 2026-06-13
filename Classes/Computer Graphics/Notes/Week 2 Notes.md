@@ -298,6 +298,8 @@ $p' = p + t = \begin{bmatrix} x \\ y \end{bmatrix} + \begin{bmatrix} t_x\\ t_y \
 
 ## Matrix Multiplication
 - Matrices can be multiplied
-- Points and vectors can be multiplied by a transformation matrix to transform them
-- $\begin{bmatrix}a_{11} a_{12}\\a_{21} a_{22}\end{bmatrix} \begin{bmatrix} x \\ y\end{bmatrix} = \begin{bmatrix} a_{11}x + a_{12}y\\a{21}x + a{22}y\end{bmatrix}$
-- 
+- Points and vectors can be multiplied by a transformation matrix to transform them if dimensions agree
+- $\begin{bmatrix}a_{11} a_{12}\\a_{21} a_{22}\end{bmatrix} \begin{bmatrix} x \\ y\end{bmatrix} = \begin{bmatrix} a_{11}x + a_{12}y\\ a_{21}x + a_{22}y\end{bmatrix}$
+- Not commutative, but is associative and distributive
+
+Given a matrix $M$ with $a$ rows and $b$ columns, and matrix N with $b$ rows and $
