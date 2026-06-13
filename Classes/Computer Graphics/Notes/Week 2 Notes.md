@@ -296,4 +296,7 @@ $p = \begin{bmatrix} x \\ y \end{bmatrix}$, $t = \begin{bmatrix} t_x\\ t_y \end{
 
 $p' = p + t = \begin{bmatrix} x \\ y \end{bmatrix} + \begin{bmatrix} t_x\\ t_y \end{bmatrix} = \begin{bmatrix} x+t_x \\ y + t_y \end{bmatrix}$
 
-
+## Matrix Multiplication
+- Matrices can be multiplied
+- Points and vectors can be multiplied by a transformation matrix to transform them
+- $\begin{bmatrix}
