@@ -354,4 +354,8 @@ $p' = R(\theta) \cdot p = \begin{bmatrix} cos\theta \ -sin\theta \\ sin\theta \ 
 - Additional dimension added to points and vectors
 - The homogeneous coordinate is called: $w$
 - Used to facilitate translations in similarity and affine transformations
-- $\begin{bmatrix} x' \\ y' \\ 1\end{bmatrix} = \begin{bmatrix}m_{11} \ m_{12} \ x_t \\ m_{21} \ m_{22} \ y_t \\ 0 \ 0 \ 1 \end{bmatrix} \begin{bmatrix} x \\ y \\ 1 \end{bmatrix} = \begin{bmatrix} m_{11}x + m_{12}y + x_t \\ m_{21}x + m_{22}y + \end{bmatrix}$ 
+- We can support perspective projection in 3D as well
+	- $\begin{bmatrix} x' \\ y' \\ 1\end{bmatrix} = \begin{bmatrix}m_{11} \ m_{12} \ x_t \\ m_{21} \ m_{22} \ y_t \\ 0 \ 0 \ 1 \end{bmatrix} \begin{bmatrix} x \\ y \\ 1 \end{bmatrix} = \begin{bmatrix} m_{11}x + m_{12}y + x_t \\ m_{21}x + m_{22}y + y_t \\ 1\end{bmatrix}$
+
+### Homogeneous Translation of Points
+1. Extend p to a 3D column matrix with a one in the las
