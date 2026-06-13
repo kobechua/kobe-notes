@@ -517,5 +517,5 @@ Scenario:
 - $R_1$: Rotation by $\theta_1$, $R_2$: Rotation by $\theta_2$
 - Combined Transformation Matrix:
 $$
-M = M_2 \cdot M_1 = \begin{bmatrix} s_{x1}(s_{x2}cos\theta_1cos\theta_2 - s_{y2}\end{bmatrix}
+M = M_2 \cdot M_1 = \begin{bmatrix} s_{x1}(s_{x2}cos\theta_1cos\theta_2 - s_{y1}(s_{x2}sin\theta_2cos\theta_1) \\ s_{x1}(s_{x2}cos\theta_2cos\theta_1 - s_{y1}(s_{x2}sin\theta_1cos\theta_2)\end{bmatrix}
 $$
