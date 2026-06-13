@@ -587,4 +587,11 @@ SVD is robust but computationally expensive. It is generally avoided in high per
 	- Compute adjoint matrix
 	- Divide by determinant zero
 
-Avoid general determinant inversion for large matrices and consider alternatives like LU decompo
+Avoid general determinant inversion for large matrices and consider alternatives like LU decomposition, iterative methods, etc.
+
+### Numerical Accuracy and Inversion
+- Floating-Point Precision Limits
+	- Computers store numbers with limited precision
+	- Extreme scaling can cause loss of precision
+	- Scaling by $10^6$ then by $10^{-6}$ may not return the original value due to floating-point rounding errors.
+- Numerical Instability in Inversions
