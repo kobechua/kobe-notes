@@ -280,3 +280,7 @@ The x and y axes are no longer orthogonal; shear distorts the right angle betwee
 
 #### Radians
 Radians are the default angle measure in most mathematical contexts. 
+
+#### Determine Angle of a 2D Vector with +X Axis
+Using the rule of right triangles we get
+$\theta = acrtan(\frac{y}{x})$, where $v = \begin{bmatrix}
