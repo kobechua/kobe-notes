@@ -545,4 +545,9 @@ An **Inverse Transformation** is a
 - Useful for undoing transformations and transitioning between coordinate spaces.
 
 ### Transformations that are Easy to Invert
-Scales : The inverse of $S(s_x, s_y, s_z) = S(frac{}{})
+Scales
+- The inverse of $S(s_x, s_y, s_z) = S(\frac{1}{s_x},\frac{1}{s_y},\frac{1}{s_z})$
+Rotations
+- Orthogonal Property: $R^{-1} = R^T$ (Transpose equals inverse)
+- Rotating back by the same angle undoes the rotation
+- R refewres to the 3x3 roation matrix and is in the upper left 3x3 submatrix of a 4x4 homogeneous r
