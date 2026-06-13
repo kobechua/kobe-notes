@@ -453,4 +453,6 @@ A **gimbal lock** occurs when two rotation axes align, reducing degrees of freed
 Example: Pitching $90^\circ$ causes the roll and yaw axes to align
 
 ### Axis-Angle Rotation
-An **Axis-Angle Rotation** is a rotation using a single axis of rotation(unit vector) and a 
+An **Axis-Angle Rotation** is a rotation using a single axis of rotation represented by a unit vector. This axis can be a primary axis (x, y, or z) or an arbitrary axis chosen for the specific rotation. The rotation is defined by an angle around that axis. 
+
+A key benefit to this approach is that it avoids gimbal lock, which can be 
