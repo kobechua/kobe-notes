@@ -267,7 +267,7 @@ $y' = y + sh_y \cdot x$
 
 The x and y axes are no longer orthogonal; shear distorts the right angle between them
 
-### 2D Rotation
+## 2D Rotation
 - Rotation is when we move a point around the origin by an angle $\theta$
 - A point $p = (p_x, p_y)$ is rotated to a new position $p' = (p_x', p_y')$
 - The new coordinates after rotation by an angle $\theta$ are:
@@ -283,4 +283,11 @@ Radians are the default angle measure in most mathematical contexts.
 
 #### Determine Angle of a 2D Vector with +X Axis
 Using the rule of right triangles we get
-$\theta = acrtan(\frac{y}{x})$, where $v = \begin{bmatrix}
+
+$\theta = acrtan(\frac{y}{x})$, where $v = \begin{bmatrix} x\\ y \end{bmatrix}$
+
+A special function called `atan2(y,x)` is used in graphics APIs to separately track the sign of x and y to solve the correct angle for all four quadrants and avoid a divide by zero
+
+## Translation
+
+
