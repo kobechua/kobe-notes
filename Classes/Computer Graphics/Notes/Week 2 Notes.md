@@ -252,4 +252,4 @@ Shapes may also be stored such that the origin is already at the desired anchor 
 ### Shear
 A shear transformation slides points in a specific direction, distorting the shape of an object and creating a slanted appearance
 
-Although the shape is altered, the area of the object remains preserved. However, extreme shear factors can distort the shape so much that it becomes visually difficult to interpres
+Although the shape is altered, the area of the object remains preserved. However, extreme shear factors can distort the shape so much that it becomes visually difficult to interpret.
