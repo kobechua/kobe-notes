@@ -418,6 +418,6 @@ Left Handed
 
 **Intrinsic rotations** are described relative to the object's evolving local frame. Each axis' angle of rotation is applied sequentially, however preceding rotations reorient the local frame, affecting how subsequent angles are measured. Common in animation and simulations where objects move based on internal constraints
 
-
+Extrinsic rotations rotate an object around the fixed world axes, while intrinsic rotations rotate an object around its own local 
 
 
