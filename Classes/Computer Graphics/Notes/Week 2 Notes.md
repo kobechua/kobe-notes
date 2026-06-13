@@ -333,4 +333,4 @@ $$
 shearY(\theta) = \begin{bmatrix} 1 \ 0 \\ tan\theta \   1\end{bmatrix}
 $$
 ### Rotation using Matrix
-$
+$R(\theta) = \begin{bmatrix} \end{bmatrix}
