@@ -302,4 +302,8 @@ $p' = p + t = \begin{bmatrix} x \\ y \end{bmatrix} + \begin{bmatrix} t_x\\ t_y \
 - $\begin{bmatrix}a_{11} a_{12}\\a_{21} a_{22}\end{bmatrix} \begin{bmatrix} x \\ y\end{bmatrix} = \begin{bmatrix} a_{11}x + a_{12}y\\ a_{21}x + a_{22}y\end{bmatrix}$
 - Not commutative, but is associative and distributive
 
-Given a matrix $M$ with $a$ rows and $b$ columns, and matrix N with $b$ rows and $
+Given a matrix $M$ with $a$ rows and $b$ columns, and matrix N with $b$ rows and $c$ columns, if we multiply $M \times N$ we get a matrix $R$ (result) with $a$ rows and $c$ columns
+
+Matrix multiplication is undefined if **the number of columns in M does not match the number of rows of N**
+
+Each element in $R$ is calculated as the sum of products of the corresponding elements from the $i^{th}$ row and the $j^{th}$ column o
