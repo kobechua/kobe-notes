@@ -682,4 +682,25 @@ Transformations must be inverted and applied in reverse order. Efficient handlin
 - Compute inverses per operation and accumulate them in reverse order
 - Requires parallel matrix stack
 - Potentially more efficient in some cases, but uncommon
-### Scene Graph + Matr
+### Scene Graph + Matrix Stack
+#### Forward Transformations
+- Accumulate transforms as you traverse down the scene graph
+- Store cumulative forward matrices in the matrix stack
+- local-to-world transforms
+#### Inverse Transformations
+- Compute and store inverse of forward transform
+- world-to-local transforms
+- We can alternatively maintain a parallel inverse matrix stack, where for each forward transformation we compute its inverse and push it onto the inverse stack, allowing for a more accurate inverse transformation
+
+## Changing Coordinate System
+### Working Across Scene Graph Levels
+Transforming geometry between levels
+- First forward transform to world space
+- Invert to the desired level
+
+For example, when converting a coffee cup to world space, you must multiply the local transformation matrix of the coffee cup by the transformation matrices of its parent nodes, all the way up to the root
+
+Next you invert the world-to-local transformation of the target node to convert world coordinates into the desired local coordinate system. In our example, the transformation matrix of the fruit bowl would be inverted to then convert the coffee cup from world space back into the fruit bowl's local space.
+
+By following this approach, you can change the coordinate system of
+
