@@ -596,4 +596,5 @@ Avoid general determinant inversion for large matrices and consider alternatives
 	- Scaling by $10^6$ then by $10^{-6}$ may not return the original value due to floating-point rounding errors.
 - Numerical Instability in Inversions
 	- Errors in inversion grow when the determinant of the matrix is very small (but non-zero)
-	- Example: Scaling one axis by $10^{-9}$
+	- Example: Scaling one axis by $10^{-9}$ effectively collapses that dimension, making inversion unstable.
+	- 
