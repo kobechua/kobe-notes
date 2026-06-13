@@ -439,6 +439,15 @@ Both methods can build the same rotation matrix as the other, but serve differen
 - Yaw, rotation around the z axis, turning left or right
 - Pitch, rotation around the y axis, tilting up or down
 - Roll, rotation around the x axis, twisting  left or right
-These Euler
+These Euler angles can be applied intrinsically or extrinsically
+
 In some specialized systems, mixed frame applications may also occur
 
+Any sequence of rotations (XYZ, ZYX etc.) is valid
+
+### Gimbal Lock
+A **gimbal lock** occurs when two rotation axes align, reducing degrees of freedom.
+
+![[Pasted image 20260613130918.png]]
+
+Example: Pitching $90\deg$  
