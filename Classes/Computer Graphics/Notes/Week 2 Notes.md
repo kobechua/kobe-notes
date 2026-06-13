@@ -364,3 +364,6 @@ $p' = R(\theta) \cdot p = \begin{bmatrix} cos\theta \ -sin\theta \\ sin\theta \ 
 
 $p = \begin{bmatrix} x \\ y \\ 1\end{bmatrix}$   $T = \begin{bmatrix}1 \ 0 \ t_x \\ 0 \ 1 \ t_y \\ 0 \ 0 \ 1\end{bmatrix}$   $p' = T \cdot p = \begin{bmatrix} 1 \ 0 \ t_x \\ 0 \ 1 \ t_y \\ 0 \ 0 \ 1\end{bmatrix} \begin{bmatrix}x \\ y \\ 1\end{bmatrix} = \begin{bmatrix}x+t_x \\ y + t_y \\ 1\end{bmatrix}$   
 
+### Homogeneous Translation of Vectors
+- When transforming vectors place a $0$ in the homogeneous dimension for the vector. This effectively excludes translation
+- 
