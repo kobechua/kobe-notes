@@ -502,4 +502,10 @@ Practical implications
 
 ### Decomposability of Similarity Transforms
 Similarity Transform Properties
-- A similarity transfro
+- A similarity transform is any combination of T, R, and S, where S is uniform and non-degenerate
+- $M_{compound} = T \cdot R \cdot S$
+- The resulting $T, R$ and $S$ may differ from the original components
+
+Why does it work?
+- Uniform scaling does not introduce shear
+- Rotations are orthogonal and preserve scaling relationships.
