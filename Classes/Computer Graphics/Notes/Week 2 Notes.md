@@ -609,4 +609,4 @@ Avoid general determinant inversion for large matrices and consider alternatives
 - Composite transformations require reversing the order during inversion
 - Singular matrices with annihilation cannot be inverted
 - Watch out for numerical accuracy issues
-- Determina
+- Determinant method of inversion is efficient for 4x4 matrices, but numerical stability matters.
