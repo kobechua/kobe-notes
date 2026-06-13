@@ -326,7 +326,11 @@ $\begin{bmatrix} x' \\ y'\end{bmatrix} = \begin{bmatrix} s_x \ 0 \\ 0 \ s_y\end{
 $I = \begin{bmatrix} 1 \ 0 \\ 0 \ 1 \end{bmatrix}$
 
 ### Shear 
-
 $$
-shearX(\theta) = \begin{bmatrix} \e
+shearX(\theta) = \begin{bmatrix} 1 \ tan\theta \\ 0 \   1\end{bmatrix}
 $$
+$$
+shearY(\theta) = \begin{bmatrix} 1 \ 0 \\ tan\theta \   1\end{bmatrix}
+$$
+### Rotation using Matrix
+$
