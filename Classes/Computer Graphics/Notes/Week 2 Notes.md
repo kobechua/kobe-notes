@@ -358,6 +358,9 @@ $p' = R(\theta) \cdot p = \begin{bmatrix} cos\theta \ -sin\theta \\ sin\theta \ 
 	- $\begin{bmatrix} x' \\ y' \\ 1\end{bmatrix} = \begin{bmatrix}m_{11} \ m_{12} \ x_t \\ m_{21} \ m_{22} \ y_t \\ 0 \ 0 \ 1 \end{bmatrix} \begin{bmatrix} x \\ y \\ 1 \end{bmatrix} = \begin{bmatrix} m_{11}x + m_{12}y + x_t \\ m_{21}x + m_{22}y + y_t \\ 1\end{bmatrix}$
 
 ### Homogeneous Translation of Points
-1. Extend p to a 3D column matrix with a one in the last position
+1. Extend $p$ to a 3D column matrix with a $1$ in the last position
 2. Translation becomes a 3x3 matrix
 3. Then compute the new point $p'$ as shown
+
+$p = \begin{bmatrix} x \\ y \\ 1\end{bmatrix}$   $T = \begin{bmatrix}1 \ 0 \ t_x \\ 0 \ 1 \ t_y \\ 0 \ 0 \ 1\end{bmatrix}$   $p' = T \cdot p = \begin{bmatrix} 1 \ 0 \ t_x
+
