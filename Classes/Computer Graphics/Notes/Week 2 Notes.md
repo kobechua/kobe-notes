@@ -518,4 +518,8 @@ Scenario:
 - Combined Transformation Matrix:
 ![[Pasted image 20260613153740.png]]
 
-S1 followed by a rotation R1, then another transformation with a second non-uniform scale S2, and rotation R2
+S1 followed by a rotation R1, then another transformation with a second non-uniform scale S2, and rotation R2. The resulting matrix is the product of M2 and M1 
+
+![[Pasted image 20260613153955.png]]
+
+We can evaluate the dot product of $u$ and $v$. If its non-zero, then the basic vectors are **not orthogonal**
