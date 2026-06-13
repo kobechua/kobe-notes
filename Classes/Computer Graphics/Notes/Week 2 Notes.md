@@ -299,4 +299,5 @@ $p' = p + t = \begin{bmatrix} x \\ y \end{bmatrix} + \begin{bmatrix} t_x\\ t_y \
 ## Matrix Multiplication
 - Matrices can be multiplied
 - Points and vectors can be multiplied by a transformation matrix to transform them
-- $\begin{bmatrix}
+- $\begin{bmatrix}a_{11} a_{12}\\a_{21} a_{22}\end{bmatrix} \begin{bmatrix} x \\ y\end{bmatrix} = \begin{bmatrix} a_{11}x + a_{12}y\\a{21}x + a{22}y\end{bmatrix}$
+- 
