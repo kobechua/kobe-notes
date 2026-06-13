@@ -450,4 +450,7 @@ A **gimbal lock** occurs when two rotation axes align, reducing degrees of freed
 
 ![[Pasted image 20260613130918.png]]
 
-Example: Pitching $90\deg$  
+Example: Pitching $90^\circ$ causes the roll and yaw axes to align
+
+### Axis-Angle Rotation
+An **Axis-Angle Rotation** is a rotation using a single axis of rotation(unit vector) and a 
