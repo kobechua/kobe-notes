@@ -485,3 +485,8 @@ Steps to combine with transformation matrices
 Benefits in practice
 - Ideal for scenarios requiring continuous, stable, rotations
 - Works seamlessly with existing matrix-based workflows.
+
+## Compound Transformations
+Compound transformations are sequences of transformations applied in some order. These can include translation, rotation, scaling, etc.
+
+Order matters: transformations are not commutative eg
