@@ -306,4 +306,10 @@ Given a matrix $M$ with $a$ rows and $b$ columns, and matrix N with $b$ rows and
 
 Matrix multiplication is undefined if **the number of columns in M does not match the number of rows of N**
 
-Each element in $R$ is calculated as the sum of products of the corresponding elements from the $i^{th}$ row and the $j^{th}$ column o
+Each element in $R$ is calculated as the sum of products of the corresponding elements from the $i^{th}$ row and the $j^{th}$ column of $N$. Mathematically, each element of $R$:
+$$
+r_{ij} = \sum^{b}_{k = 1} m_{ik} \cdot n_{kj}
+$$
+Where $k$ iterates over the shared dimension $b$
+
+
