@@ -603,3 +603,6 @@ Avoid general determinant inversion for large matrices and consider alternatives
 - Condition Number of a Matrix
 	- The condition number measures how sensitive a matrix is to numerical errors during inversion
 	- High condition numbers (near-singular matrices) amplify small numerical inaccuracies, leading to unreliable inversion
+
+# Scene Graphs and Matrix Stacks
+## Scene Graphs Overview
