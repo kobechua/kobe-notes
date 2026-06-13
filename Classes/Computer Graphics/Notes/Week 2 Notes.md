@@ -577,4 +577,14 @@ SVD is robust but computationally expensive. It is generally avoided in high per
 - Determinant Test:
 	- Determinant: indicates the scaling factor of a transform and reveals if any dimensions are collapsed,
 	- If det(T) = 0 the transformation is non-invertible
-	- Losee of dim
+	- Loss of dimensionality makes recovery impossible
+
+### Inversion in 4x4 Matrices
+- Determinant Method(Adjugate Matrix Method):
+  - Works well for 4x4 homogeneous matrices.
+  - Generally efficient in graphics due to hardware optimizations
+- Step-by-step inversion:
+	- Compute adjoint matrix
+	- Divide by determinant zero
+
+Avoid general determinant inversion for large matrices and consider alternatives like LU decompo
