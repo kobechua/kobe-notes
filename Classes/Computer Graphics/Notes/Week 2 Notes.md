@@ -530,9 +530,14 @@ orthogonal: independent, unrelated or perpendicular.
 
 ### Decomposition of Similarity Transforms
 Simple Decomposition Method for Compound Similarity Transforms
-- Translation: extract from the last column of homogeneous transform matrix
-- Rotation: Determined using the normalized basis vectors of the upper-left 3x3 submatrix.
+- Translation (R): extract from the last column of homogeneous transform matrix
+- Rotation (R): Determined using the normalized basis vectors of the upper-left 3x3 submatrix.
 - Uniform Scaling (S): Obtained from the magnitude of any basis vector in the upper-left 3x3 submatrix.
+
 More powerful methods such as Singular Value Decomposition(SVD) works with any $n \times n$ matrix.
 - They are more computationally expensive but provides detailed information such as:
-- 
+	- Decomposition into rotation, scaling, and shear components
+	- Identification of matrix properties, including rank and singular values.
+
+## Inverse Transformations
+An **Inverse Transformation** is a
