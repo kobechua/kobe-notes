@@ -481,4 +481,7 @@ Why use quaternions
 Steps to combine with transformation matrices
 - Convert quaternion angle representation to rotation matrix
 - Combine with translation and scaling for a complete transformation matrix
-- Use interpolation (SLERP) of quaternion for smooth transiti
+- Use interpolation (SLERP) of quaternion for smooth transitions in animations
+Benefits in practice
+- Ideal for scenarios requiring continuous, stable, rotations
+- Works seamlessly with existing matrix-based workflows.
