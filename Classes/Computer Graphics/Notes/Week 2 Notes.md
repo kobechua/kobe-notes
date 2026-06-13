@@ -509,3 +509,6 @@ Similarity Transform Properties
 Why does it work?
 - Uniform scaling does not introduce shear
 - Rotations are orthogonal and preserve scaling relationships.
+
+### Shear from Chaining Non-Uniform Scales and Rotations
+
