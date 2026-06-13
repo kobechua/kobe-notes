@@ -597,4 +597,9 @@ Avoid general determinant inversion for large matrices and consider alternatives
 - Numerical Instability in Inversions
 	- Errors in inversion grow when the determinant of the matrix is very small (but non-zero)
 	- Example: Scaling one axis by $10^{-9}$ effectively collapses that dimension, making inversion unstable.
-	- 
+	- Repeated inversion compounds errors
+		- Each inversion introduces small numerical errors due to floating-point limitation
+		- Performing repeated inversions should be avoided
+- Condition Number of a Matrix
+	- The condition number measures how sensitive a matrix is to numerical errors during inversion
+	- High condition numbers (near-singular matrices) ampl 
