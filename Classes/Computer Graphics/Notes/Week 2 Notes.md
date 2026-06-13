@@ -409,7 +409,11 @@ Right Handed
 Left Handed
 ![[Pasted image 20260613125400.png]]
 
+## Rotation Representation
+- A rotation matrix describes the rotational pose of the major axes, though it does not indicate the sequence of rotations that produced this orientation
+- This ambiguity arises because there are multiple way to build a rotation matrix
+- Understanding how to represent, build, and update rotations is important for applications like animation, physics, and transformations
 
-
+A r
 
 
