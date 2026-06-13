@@ -460,8 +460,10 @@ A key benefit to this approach is that it avoids gimbal lock, which can be an is
 ### Arbitrary Axis-Angle Rotation
 The main concept behind **Arbitrary Axis-Angle Rotation** is to break it down into smaller steps using intermediate coordinate systems.
 
-The Approach:
+**The Approach:**
 1. Align the rotation axis with a major axis:
 	- Apply a series of transformations to align the arbitrary axis with the z-axis
 2. Perform rotation
-	- 
+	- Rotate about the aligned axis
+3. Undo the alignment
+	- Reverse the initial transformations to return the rotated object to its original frame
