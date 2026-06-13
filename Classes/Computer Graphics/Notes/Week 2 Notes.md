@@ -466,4 +466,8 @@ The main concept behind **Arbitrary Axis-Angle Rotation** is to break it down in
 2. Perform rotation
 	- Rotate about the aligned axis
 3. Undo the alignment
-	- Reverse the initial transformations to return the rotated object to its original frame
+	- Reverse the initial transformations to return the rotated object to its original frame of reference
+This process allows for arbitrary axis rotations in a manageable way
+
+### Quaternions
+A **quaternion** is a compact 4D representation of rotation using 
