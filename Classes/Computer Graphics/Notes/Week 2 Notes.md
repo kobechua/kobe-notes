@@ -606,3 +606,8 @@ Avoid general determinant inversion for large matrices and consider alternatives
 
 # Scene Graphs and Matrix Stacks
 ## Scene Graphs Overview
+The purpose of scene graphs are to manage hierarchical relationships and transformations in complex scenes.
+
+Transformations applied to a parent node affect the mapping of its descendant nodes to world coordinates. The local coordinate transforms for any node are always defined relative to teh parent coordinate system.
+
+Structurally, a scene graph is represented as a Directed Acyclic Graph, or DAG. In this structure, the geometry or objects are rrepresente
