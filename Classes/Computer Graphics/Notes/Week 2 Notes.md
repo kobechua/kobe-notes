@@ -422,6 +422,17 @@ Left Handed
 
 ### Building a Rotation Matrix
 #### Extrinsic Method:
-- Chosoe a rotation order
-- Apply 
+- Choose a rotation order
+- Apply the rotations sequentially in global coordinates
+- Multiply the corresponding matrices together
+#### Intrinsic Method:
+- Rotations are described in the evolving local frame
+- Choose a rotation order
+- Rotate the object around the first axis in the local frame
+- Update the frame for the next rotations
+- Repeat for all axes, measuring angles in the updated frame.
 
+Both methods can build the same rotation matrix as the other, but serve different use cases
+
+### Euler Angles
+**Euler angles** are the sequence of rotations 
