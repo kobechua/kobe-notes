@@ -641,3 +641,14 @@ New transformations are multiplied to the right side of the active transformatio
 $$
 M_{new} = M_{current} \cdot T
 $$
+This structure ensures that local transformations like scaling or positioning an object are applied first. Then ascendant transformations that might position several child objects are applied. 
+
+Matrix stacks, combined with scene graphs, provide a powerful system for managing complex transformations in graphics
+
+![[Pasted image 20260613175355.png]]
+
+### Transforming a Triangle Mesh
+- Points: $p_i = [x_i, y_i, z_i, 1]^T$
+
+Global Transformation:
+- $P_{i\_transformed} = M_{room} 
