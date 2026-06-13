@@ -493,4 +493,13 @@ Order matters: transformations are not commutative eg. $T \cdot R \ne R \cdot T$
 
 ### How does Order Affect Compound Transformations
 Why does order matter?
-- Matrix multiplication is not commut
+- Matrix multiplication is not commutative
+- Rotating a translated object moves the translation but translating a rotated object does not rotate the translation
+
+Practical implications
+- Always apply transformations in the intended order
+- Common conventions: $T \cdot R \cdot S$ though flexibility exists
+
+### Decomposability of Similarity Transforms
+Similarity Transform Properties
+- A similarity transfro
