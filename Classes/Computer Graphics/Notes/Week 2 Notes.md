@@ -397,7 +397,10 @@ $R(\theta) = \begin{bmatrix}cos\theta \ -sin\theta \ 0 \\ sin\theta \ cos\theta 
 ![[Pasted image 20260613121735.png]]
 
 ### Rotation with the Left-Hand 3D Coordinate System
-- Axes x, y, z follow the lef hand rule
+- Axes x, y, z follow the left hand rule
+- Positive rotation is clockwise relative to the axis of rotation
+![[Pasted image 20260613121822.png]]
+
 
 
 
