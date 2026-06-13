@@ -401,7 +401,13 @@ $R(\theta) = \begin{bmatrix}cos\theta \ -sin\theta \ 0 \\ sin\theta \ cos\theta 
 - Positive rotation is clockwise relative to the axis of rotation
 ![[Pasted image 20260613121822.png]]
 
+Not typing all this shit
 
+Right Handed
+![[Pasted image 20260613125337.png]]
+
+Left Handed
+![[Pasted image 20260613125400.png]]
 
 
 
