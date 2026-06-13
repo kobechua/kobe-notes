@@ -271,5 +271,7 @@ The x and y axes are no longer orthogonal; shear distorts the right angle betwee
 - Rotation is when we move a point around the origin by an angle $\theta$
 - A point $p = (p_x, p_y)$ is rotated to a new position $p' = (p_x', p_y')$
 - The new coordinates after rotation by an angle $\theta$ are:
-	- $p_x' = p_x cos\theta - op
+	- $p_x' = p_x cos\theta - p_ysin\theta$
+	- $p_y' = p_xsin\theta+p_ycos\theta$
+
 
