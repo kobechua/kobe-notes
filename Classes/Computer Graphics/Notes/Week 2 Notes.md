@@ -351,3 +351,7 @@ $p' = R(\theta) \cdot p = \begin{bmatrix} cos\theta \ -sin\theta \\ sin\theta \ 
 		- Scaling: Changes the magnitude of the basis vectors
 
 ## Homogeneous Coordinates
+- Additional dimension added to points and vectors
+- The homogeneous coordinate is called: $w$
+- Used to facilitate translations in similarity and affine transformations
+- 
