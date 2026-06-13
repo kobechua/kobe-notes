@@ -389,7 +389,9 @@ $p = \begin{bmatrix}x \\ y \\ z \\ 1\end{bmatrix}$, $p' = S \cdot p = \begin{bma
 
 ### 2D Rotation with Homogeneous Matrix
 
-$R(\theta) = \begin{bmatrix}cos\theta \ -sin\theta \ 0 \\ sin\theta \ cos\theta \ 0 \\ 0 \ 0 \ 1 \end{bmatrix}$ $p' = R(\theta) \cdot p = \begin{bmatrix}cos\theta 
+$R(\theta) = \begin{bmatrix}cos\theta \ -sin\theta \ 0 \\ sin\theta \ cos\theta \ 0 \\ 0 \ 0 \ 1 \end{bmatrix}$ $p' = R(\theta) \cdot p = \begin{bmatrix}cos\theta \ -sin\theta \ 0 \\ sin\theta \ cos\theta \ 0 \\ 0 \ 0 \ 1 \end{bmatrix} \begin{bmatrix} x \\ y \\ 1 = \begin{bmatrix}xcos\theta - ysin\theta \\ xsin\theta + ycos\theta \\ 1 \end{bmatrix} $
+
+
 
 
 
