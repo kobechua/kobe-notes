@@ -541,3 +541,8 @@ More powerful methods such as Singular Value Decomposition(SVD) works with any $
 
 ## Inverse Transformations
 An **Inverse Transformation** is a
+- Transformation $T$ that has an inverse $T^{-1}$ if $T \cdot T^{-1} = I$ where $I$ is the identity matrix;
+- Useful for undoing transformations and transitioning between coordinate spaces.
+
+### Transformations that are Easy to Invert
+Scales : The inverse of $S(s_x, s_y, s_z) = S(frac{}{})
