@@ -274,8 +274,9 @@ The x and y axes are no longer orthogonal; shear distorts the right angle betwee
 	- $p_x' = p_x cos\theta - p_ysin\theta$
 	- $p_y' = p_xsin\theta+p_ycos\theta$
 
-Rotations are counterclockwise for positive angles and clockwise for negative angles
+- Rotations are counterclockwise for positive angles and clockwise for negative angles
+- The distance from the origin remains unchanged for any rotated point
+- Rotations preserve angles between points
 
-The distance from the origin remains unchanged for any rotated point
-
-Rotations preserve angles between points
+#### Radians
+Radians are the default angle measure in most mathematical contexts. 
