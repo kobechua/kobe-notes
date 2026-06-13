@@ -414,6 +414,10 @@ Left Handed
 - This ambiguity arises because there are multiple way to build a rotation matrix
 - Understanding how to represent, build, and update rotations is important for applications like animation, physics, and transformations
 
-A r
+**Extrinsic rotations** are described in the frame that contains the object. Each axis's angle of rotation is applied sequentially, relative to the containing frame. They are common in world-space transformations or when manipulating objects externally.
+
+**Intrinsic rotations** are described relative to the object's evolving local frame. Each axis' angle of rotation is applied sequentially, however preceding rotations reorient the local frame, affecting how subsequent angles are measured. Common in animation and simulations where objects move based on internal constraints
+
+
 
 
