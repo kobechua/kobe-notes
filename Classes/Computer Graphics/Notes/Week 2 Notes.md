@@ -367,4 +367,6 @@ $p = \begin{bmatrix} x \\ y \\ 1\end{bmatrix}$   $T = \begin{bmatrix}1 \ 0 \ t_x
 ### Homogeneous Translation of Vectors
 - When transforming vectors place a $0$ in the homogeneous dimension for the vector. This effectively excludes translation
 
-$V = \begin{bmatrix} x \\ y \\ 0 \end{bmatrix}$  $V' = T \cdot V = \begin{bmamtrix}
+$V = \begin{bmatrix} x \\ y \\ 0 \end{bmatrix}$  $V' = T \cdot V = \begin{bmamtrix} 1 \ 0 \ t_x \\ 0 \ 1 \ t_y \\ 0 \ 0 \ 1 \end{bmatrix} \begin{bmatrix} x \\ y \\ 0 \end{bmatrix} = \begin{bmatrix} x \\ y \\ 0 \end{bmatrix}$
+
+
