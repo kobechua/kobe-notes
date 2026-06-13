@@ -354,4 +354,4 @@ $p' = R(\theta) \cdot p = \begin{bmatrix} cos\theta \ -sin\theta \\ sin\theta \ 
 - Additional dimension added to points and vectors
 - The homogeneous coordinate is called: $w$
 - Used to facilitate translations in similarity and affine transformations
-- 
+- $\begin{bmatrix} x' \\ y' \\ 1\end{bmatrix} = \begin{bmatrix}m_{11} \ m_{12} \ x_t \\ m_{21} \ m_{22} \ y_t \\ 0 \ 0 \ 1 \begin{bmatrix}
