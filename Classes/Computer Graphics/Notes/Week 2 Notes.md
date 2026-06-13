@@ -650,5 +650,12 @@ Matrix stacks, combined with scene graphs, provide a powerful system for managin
 ### Transforming a Triangle Mesh
 - Points: $p_i = [x_i, y_i, z_i, 1]^T$
 
+Each point in the triangle mesh is represented as a point. We apply the combined transformations of the hierarchy.
+
 Global Transformation:
-- $P_{i\_transformed} = M_{room} 
+- $P_{i\_transformed} = M_{room} \cdot M_{table} \cdot M_{saucer} \cdot M_{cup} \cdot p_i$
+
+### Building Transformations via Immediate-Mode API
+![[Pasted image 20260613175756.png]]
+
+
