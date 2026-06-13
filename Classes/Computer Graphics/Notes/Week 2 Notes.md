@@ -369,6 +369,13 @@ $p = \begin{bmatrix} x \\ y \\ 1\end{bmatrix}$   $T = \begin{bmatrix}1 \ 0 \ t_x
 
 $V = \begin{bmatrix} x \\ y \\ 0 \end{bmatrix}$  $V' = T \cdot V = \begin{bmatrix} 1 \ 0 \ t_x \\ 0 \ 1 \ t_y \\ 0 \ 0 \ 1 \end{bmatrix} \begin{bmatrix} x \\ y \\ 0 \end{bmatrix} = \begin{bmatrix} x \\ y \\ 0 \end{bmatrix}$
 
-##
+#### Homogeneous Representation of Translation
+Advantages
+- Translation becomes part of a unified transformation framework
+- Supports combining translating with other transformations like rotating and scaling
+Disadvantages
+- Must remember to correctly configure points versus vectors
+
+
 
 
