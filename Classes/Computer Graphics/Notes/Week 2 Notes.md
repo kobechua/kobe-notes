@@ -702,5 +702,16 @@ For example, when converting a coffee cup to world space, you must multiply the 
 
 Next you invert the world-to-local transformation of the target node to convert world coordinates into the desired local coordinate system. In our example, the transformation matrix of the fruit bowl would be inverted to then convert the coffee cup from world space back into the fruit bowl's local space.
 
-By following this approach, you can change the coordinate system of
+![[Pasted image 20260613181649.png]]
 
+By following this approach, you can change the coordinate system of any object in the scene graph, allowing for flexible transformations between different levels of the hierarchy
+
+### Coordinate System Change: Best Approach
+Alternative approach of transforming geometry via a common ancestor
+
+Potential Benefit: May allow for optimizations by leveraging structured transformations (e.g. skipping identity or diagonal matrices)
+
+Downsides
+- Relies on identifying the common ancestor dynamically , adding implementation complexity
+- Requires graph traversal, introducing computational overhead of O(height of tree)
+- Misses the opportunity to uyse precomputed forward and inverse transformations
