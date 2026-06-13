@@ -435,4 +435,10 @@ Left Handed
 Both methods can build the same rotation matrix as the other, but serve different use cases
 
 ### Euler Angles
-**Euler angles** are the sequence of rotations 
+**Euler angles** are the sequence of rotations around the principal axes
+- Yaw, rotation around the z axis, turning left or right
+- Pitch, rotation around the y axis, tilting up or down
+- Roll, rotation around the x axis, twisting  left or right
+These Euler
+In some specialized systems, mixed frame applications may also occur
+
