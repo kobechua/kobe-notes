@@ -602,4 +602,11 @@ Avoid general determinant inversion for large matrices and consider alternatives
 		- Performing repeated inversions should be avoided
 - Condition Number of a Matrix
 	- The condition number measures how sensitive a matrix is to numerical errors during inversion
-	- High condition numbers (near-singular matrices) ampl 
+	- High condition numbers (near-singular matrices) amplify small numerical inaccuracies, leading to unreliable inversion
+
+### Summary of Inverse Transforms
+- Simple transformations(scales, rotations, translations) are straightforward to invert
+- Composite transformations require reversing the order during inversion
+- Singular matrices with annihilation cannot be inverted
+- Watch out for numerical accuracy issues
+- Determina
