@@ -663,4 +663,23 @@ Global Transformation:
 - The structure specifies geometry, local transformations, and parent/child relationships
 - Before rendering, the scene graph is analyzed, and local-to-world and world-to-local transformations are generated and cached.
 - A separate rendering pass leverages the cached transforms
-- Logic similar to a matrix stack is used to generate the transformations, but this is typically an internal process
+- Logic similar to a matrix stack is used to generate the transformations, but this is typically an internal process abstracted away. 
+
+## Inverse Transforms in Scene Graphs
+
+Inverse transforms enable operations in different coordinate spaces within the scene. We can transform rays into local space for simpler intersection tests via Object Instancing
+
+Transformations must be inverted and applied in reverse order. Efficient handling is essential for dynamic or complex scenes. Transformations are hierarchical, and inverting them requires reversing the order of operations.
+
+
+### Tracking Inverse Transforms
+#### Determinant-Based Inversion
+- Precompute the inverse of the full transformation matrix at each level
+- Works for any invertible transformation, regardless of composition
+- Easy to implement and status quo
+#### Tracking Inverse Transform Operations
+- Track translation, rotation, and scaling separately
+- Compute inverses per operation and accumulate them in reverse order
+- Requires parallel matrix stack
+- Potentially more efficient in some cases, but uncommon
+### Scene Graph + Matr
