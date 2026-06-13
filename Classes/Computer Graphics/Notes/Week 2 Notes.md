@@ -513,4 +513,9 @@ Why does it work?
 ### Shear from Chaining Non-Uniform Scales and Rotations
 Scenario:
 - Apply two transformations: $R_1 \cdot S_1$ followed by $R_2 \cdot S_2$ 
-- $S_1 = diag(s_{x1} s_{y1})$, $S_2 = diag(s_{x2},)
+- $S_1 = diag(s_{x1} s_{y1})$, $S_2 = diag(s_{x2}, s_{y2})$ 
+- $R_1$: Rotation by $\theta_1$, $R_2$: Rotation by $\theta_2$
+- Combined Transformation Matrix:
+$$
+M = M_2 \cdot M_1 = \begin{bmatrix} s_{x1}(s_{x2}cos\theta_1cos\theta_2 - s_{y2}\end{bmatrix}
+$$
