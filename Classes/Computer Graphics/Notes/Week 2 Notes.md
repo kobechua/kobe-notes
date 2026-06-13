@@ -237,3 +237,14 @@ Annihilation, which is degeneracy due to scaling  to zero, resulting in an objec
 
 Extreme scaling, when very small or large scaling factors lead to information loss due to floating point rounding
 
+### Scaling Around a Point
+Scaling can give unexpected results because the origin is the only point that remains fixed during scaling
+
+To control the scaling effect, it is common to:
+1. Translate the desired anchor point of the shape to the origin
+2. Apply the scaling operation
+3. Translate the shape back to its original position
+
+A similar approach can be used for rotation around an anchor point
+
+Shapes may 
