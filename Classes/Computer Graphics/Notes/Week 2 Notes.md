@@ -522,4 +522,11 @@ S1 followed by a rotation R1, then another transformation with a second non-unif
 
 ![[Pasted image 20260613153955.png]]
 
-We can evaluate the dot product of $u$ and $v$. If its non-zero, then the basic vectors are **not orthogonal**
+We can evaluate the dot product of $u$ and $v$. If its non-zero, then the basic vectors are **not orthogonal** and shear is present in the compound transformation
+
+orthogonal: independent, unrelated or perpendicular.
+
+![[Pasted image 20260613154236.png]]
+
+### Decomposition of Similarity Transforms
+Simpl
