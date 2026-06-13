@@ -610,4 +610,16 @@ The purpose of scene graphs are to manage hierarchical relationships and transfo
 
 Transformations applied to a parent node affect the mapping of its descendant nodes to world coordinates. The local coordinate transforms for any node are always defined relative to teh parent coordinate system.
 
-Structurally, a scene graph is represented as a Directed Acyclic Graph, or DAG. In this structure, the geometry or objects are rrepresente
+Structurally, a scene graph is represented as a Directed Acyclic Graph, or DAG. 
+- The geometry or objects are represented as nodes, and transformation matrices are stored at each node. 
+- These matrices define the geometry or object's transformation from its local coordinate system to the world coordinate system.
+- the relationships between nodes represent hierarchical spacial dependencies between objects. This hierarchical structure allows for straightforward control of complex scenes
+
+### Scene Graph Example: Room Hierarchy
+- Hierarchy:
+	- Room: Transformation: $M_{room}$ relative to the world
+	- Table: Transformation: $M_{table}$ relative to room
+	- Saucer: Transformation: $M_{saucer}$ relative to table
+	- Coffee Cup: Transformation: $M_{cup}$ relative to saucer
+- Transformation chain is as follows
+	- $M_{cup_local_to_world} = M_{room} \cdot $
