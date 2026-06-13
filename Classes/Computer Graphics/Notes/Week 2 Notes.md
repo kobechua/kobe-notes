@@ -389,8 +389,15 @@ $p = \begin{bmatrix}x \\ y \\ z \\ 1\end{bmatrix}$, $p' = S \cdot p = \begin{bma
 
 ### 2D Rotation with Homogeneous Matrix
 
-$R(\theta) = \begin{bmatrix}cos\theta \ -sin\theta \ 0 \\ sin\theta \ cos\theta \ 0 \\ 0 \ 0 \ 1 \end{bmatrix}$ $p' = R(\theta) \cdot p = \begin{bmatrix}cos\theta \ -sin\theta \ 0 \\ sin\theta \ cos\theta \ 0 \\ 0 \ 0 \ 1 \end{bmatrix} \begin{bmatrix} x \\ y \\ 1 = \begin{bmatrix}xcos\theta - ysin\theta \\ xsin\theta + ycos\theta \\ 1 \end{bmatrix} $
+$R(\theta) = \begin{bmatrix}cos\theta \ -sin\theta \ 0 \\ sin\theta \ cos\theta \ 0 \\ 0 \ 0 \ 1 \end{bmatrix}$ $p' = R(\theta) \cdot p = \begin{bmatrix}cos\theta \ -sin\theta \ 0 \\ sin\theta \ cos\theta \ 0 \\ 0 \ 0 \ 1 \end{bmatrix} \begin{bmatrix} x \\ y \\ 1 \end{bmatrix} = \begin{bmatrix}xcos\theta - ysin\theta \\ xsin\theta + ycos\theta \\ 1 \end{bmatrix}$
 
+### Rotation with the Right-Hand 3D Coordinate System
+- Axes x, y, z follow the right hand rule
+- Positive rotation is counterclockwise relative to the axis of rotation
+![[Pasted image 20260613121735.png]]
+
+### Rotation with the Left-Hand 3D Coordinate System
+- Axes x, y, z follow the lef hand rule
 
 
 
