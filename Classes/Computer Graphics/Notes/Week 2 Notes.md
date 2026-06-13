@@ -560,5 +560,13 @@ Similarity Transforms:
 - A typical composition: $T \cdot R \cdot S$ where $S$ is uniform
 - Inversion: Reverse order $S^{-1} \cdot R^{-1} \cdot T^{-1}$
 
-We need to apply inverses in the reverse order to properly undo transformations. Important to note the constituent similarity transformations and their order that lead to the composite transformation to apply this method.
+We need to apply inverses in the reverse order to properly undo transformations. This method works for any combination of translation, rotation, and scaling, as long as you have the parts identified in the correct order. Knowing this sequence is crucial for breaking down the composite transformation and inverting it properly
+
+### Inverting Unknown Compositions
+If known to be a similarity transform, decomposition is straightforward
+
+One could use the Singular Value Decomposition to
+- Decompose transformation into components
+- Invert each component stepwise
+SVD is robust but computationally expensive
 
