@@ -110,3 +110,4 @@ In Method 1, we may have to apply transformations to all 10,000 vertices, surfac
 #### Object Instancing
 ![[Pasted image 20260614175552.png]]
 
+
