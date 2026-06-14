@@ -110,4 +110,10 @@ In Method 1, we may have to apply transformations to all 10,000 vertices, surfac
 #### Object Instancing
 ![[Pasted image 20260614175552.png]]
 
+![[Pasted image 20260614175930.png]]
+
+### Transforming Surface Normals
+
+![[Pasted image 20260614180033.png]]
+
 
