@@ -105,7 +105,8 @@ Simply transforming geometry and camera in world coordinates, computing the rays
 
 In Method 1, we may have to apply transformations to all 10,000 vertices, surface normals, or bounding boxes. Method 2 is more efficient since it transforms the ray rather than the geometry.
 
-**Think of it as a **
+**Think of it as saving calculations on the transform by isolating the ray within a space of the ORIGINAL(before it was transformed) object**
 
 #### Object Instancing
-The above method is object instancing, which allows the scene to reuse a previous object.
+![[Pasted image 20260614175552.png]]
+
