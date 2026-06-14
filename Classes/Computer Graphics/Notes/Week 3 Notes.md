@@ -35,4 +35,8 @@ $Q = sRP + d$
 - R is a 3x3 rotational matrix
 - d is a translation vector
 
-We want to show that the unit sphere is mapped to a new sphere. The new sphere is centered at $d$ with its radius scaled by $s$. 
+We want to show that the unit sphere is mapped to a new sphere. The new sphere is centered at $d$ with its radius scaled by $s$.
+
+Rearranging P in terms of Q
+![[Pasted image 20260614140155.png]]
+
