@@ -97,4 +97,8 @@ Similarity transformations are a subset of affine transformations.
 
 ### Ray Tracing Transformed Geometry
 
-#### Ray Tracing Transformed Geometry
+#### Method 1
+Simply transforming geometry and camera in world coordinates, computing the rays according to the current camera and scene pose, then determine pixel color according to ray hits.
+
+#### Method 2
+We compute and store the inverse of the transfro
