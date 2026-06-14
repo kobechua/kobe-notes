@@ -60,4 +60,6 @@ $$
 
 ![[Pasted image 20260614144849.png]]
 
-If you derived a generic af
+If you derived a generic affine transformed sphere equation, you would need to perform transformation of control values in default unit sphere configuration. Then ray casting could be performed.
+
+- Starting with a unit sphere, defined by its basic equation. When an arbitrary affine transformation is applied, which must account for non-uniform scaling or shearing, the result is a more complex quadratic surface that must be derived. The sphere's surface transformed by the affine transformation might represent an ellipsoid or a more generalized quadratic geometry with skewe
