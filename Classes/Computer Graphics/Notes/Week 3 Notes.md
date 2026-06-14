@@ -14,5 +14,9 @@ Ray tracing is computationally intensive, involving millions of rays interacting
 ### Challenges in Ray Tracing Optimization
 - Complex geometry may be expensive to compute ray intersections against
 	- This motivates the desire to quickly cull geometry from consideration for a given ray
-- Dynamic scenes, where objects may move, require frequent updates to acceleration structures like bounding volumes or 
+- Dynamic scenes, where objects may move, require frequent updates to acceleration structures like bounding volumes or grids. 
+- Memory management
+	- Large scenes can exceed memory capacity
+	- Instancing and efficient acceleration structures mitigate this issue by reusing resources and minimizing redundancy
+- Algorithmic trade-o
 
