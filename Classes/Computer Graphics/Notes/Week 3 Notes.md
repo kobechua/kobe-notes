@@ -81,4 +81,26 @@ Many types of geometries can be transformed (Similarity or Affine) while preserv
 
 Similarity transformations preserve shapes, angles, and proportional distances
 
-Affine transformations preserve parallelism, collinearity, and convex
+Affine transformations preserve parallelism, collinearity, and convexity, but not angles and lengths
+
+	q=Ap+d
+	
+	where AAA can include:
+	
+	- rotation
+	- translation
+	- uniform or non-uniform scaling
+	- reflection
+	- shearing
+	
+	An affine transformation preserves:
+	
+	- straight lines
+	- parallel lines
+	- ratios of distances along the same line
+	
+	It does not necessarily preserve:
+	
+	- angles
+	- lengths
+	- shape
