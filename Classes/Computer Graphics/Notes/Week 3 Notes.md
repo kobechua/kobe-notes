@@ -1,2 +1,5 @@
-Ray tracing is computationally intensive, involving millions of rays interacting with many objects in a scene.
+# Ray Tracing Optimizations
+Ray tracing is computationally intensive, involving millions of rays interacting with many objects in a scene. Optimization reduces rendering times for complex scenes
+
+
 
