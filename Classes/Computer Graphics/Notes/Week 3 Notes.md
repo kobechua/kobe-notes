@@ -48,4 +48,12 @@ This shows that rotating a sphere does not change its appearance or equation bec
 
 This confirms that the unit sphere $P \cdot P = 1$ transforms into a new sphere centered at $d$ with radius $s$ under the similarity transformation $Q = sRP + d$.
 
-The result highlights that the similarity tran preserves the geometric properties of the sphere
+The result highlights that the similarity transformation preserves the geometric properties of the sphere.
+
+We can describe the transformed sphere through the addition of control values introduced to the new equation 
+$$
+(Q - d) \cdot (Q -d) = s^2
+$$
+- The sphere center position vector $d$
+- Sphere radius $s$
+- We can apply a similarity transform to the default spheres initial position $d = 0$ and scale $s = 1$ to determine where the spher
