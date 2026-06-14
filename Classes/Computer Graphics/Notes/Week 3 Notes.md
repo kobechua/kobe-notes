@@ -28,7 +28,7 @@ Ray tracing is computationally intensive, involving millions of rays interacting
 Consider a Sphere (or Circle) of unit radius
 - $P \cdot P = 1$
 
-We may want to transform points $P$ by a Similarity Transform:
+We may want to transform points $P$ by a **Similarity Transform**:
 $Q = sRP + d$ 
 - Q is the transformed point in 3D space
 - s is the scalar representing uniform scaling
