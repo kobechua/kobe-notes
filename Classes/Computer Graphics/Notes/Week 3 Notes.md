@@ -117,3 +117,6 @@ In Method 1, we may have to apply transformations to all 10,000 vertices, surfac
 ![[Pasted image 20260614180033.png]]
 
 
+
+***understand what is the slide trying to tell you,***
+***take notes of things you DONT understand***
