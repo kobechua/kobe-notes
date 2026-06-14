@@ -101,4 +101,5 @@ Similarity transformations are a subset of affine transformations.
 Simply transforming geometry and camera in world coordinates, computing the rays according to the current camera and scene pose, then determine pixel color according to ray hits.
 
 #### Method 2
-We compute and store the inverse of the transfro
+![[Pasted image 20260614172647.png]]
+
