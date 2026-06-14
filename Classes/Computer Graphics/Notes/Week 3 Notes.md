@@ -34,3 +34,5 @@ $Q = sRP + d$
 - s is the scalar representing uniform scaling
 - R is a 3x3 rotational matrix
 - d is a translation vector
+
+We want to show that the unit sphere transforms into a new sphere centered
