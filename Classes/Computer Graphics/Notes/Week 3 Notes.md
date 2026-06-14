@@ -44,4 +44,8 @@ Rearranging P in terms of Q
 
 ![[Pasted image 20260614143046.png]]
 
-This shows that rotating a sphere does not change its appearance or equation because a sphere is rotationally symmetric. Only translation $d$ change
+This shows that rotating a sphere does not change its appearance or equation because a sphere is rotationally symmetric. Only translation $d$ changes its center and the uniform scale $s$ changes its radius
+
+This confirms that the unit sphere $P \cdot P = 1$ transforms into a new sphere centered at $d$ with radius $s$ under the similarity transformation $Q = sRP + d$.
+
+The result highlights that the similarity tran preserves the geometric properties of the sphere
