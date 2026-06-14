@@ -79,13 +79,13 @@ straightforward whenever possible
 #### Transformation of Geometry 
 Many types of geometries can be transformed (Similarity or Affine) while preserving geometric properties. The geometry equation may be more complicated after transformation
 
-Similarity transformations preserve shapes, angles, and proportional distances
+**Similarity transformations** preserve shapes, angles, and proportional distances
 
 $q=sRp+d$
 
 Similarity transformations preserve shapes, angles, and proportional distances. This means that the object maintains its original proportions and overall structure.
 
-Affine transformations preserve parallelism, collinearity, and convexity, but not angles and lengths
+**Affine transformations** preserve parallelism, collinearity, and convexity, but not angles and lengths
 
 $q=Ap+d$
 
