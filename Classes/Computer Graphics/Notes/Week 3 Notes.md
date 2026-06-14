@@ -1,4 +1,5 @@
 # Ray Tracing Optimizations
+## Overview
 Ray tracing is computationally intensive, involving millions of rays interacting with many objects in a scene. Optimization reduces rendering times for complex scenes
 
 ### Optimization Strategy
@@ -18,5 +19,9 @@ Ray tracing is computationally intensive, involving millions of rays interacting
 - Memory management
 	- Large scenes can exceed memory capacity
 	- Instancing and efficient acceleration structures mitigate this issue by reusing resources and minimizing redundancy
-- Algorithmic trade-o
+- Algorithmic trade-offs
+	- Faster methods may result in approximate results
+	- Balancing precision and speed is key
+## Object Instancing Overview
 
+### Transforming a Sphere
