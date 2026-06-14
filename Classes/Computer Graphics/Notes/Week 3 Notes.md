@@ -75,6 +75,5 @@ straightforward whenever possible
 
 ![[Pasted image 20260614150059.png]]
 
-
-
 ### Geometry Transformation Strategies
+Transformation of Geometry 
