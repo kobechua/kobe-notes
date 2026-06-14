@@ -40,3 +40,5 @@ We want to show that the unit sphere is mapped to a new sphere. The new sphere i
 Rearranging P in terms of Q
 ![[Pasted image 20260614140155.png]]
 
+![[Pasted image 20260614140246.png]]
+
