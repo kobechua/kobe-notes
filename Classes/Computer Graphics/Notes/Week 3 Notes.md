@@ -81,11 +81,30 @@ Many types of geometries can be transformed (Similarity or Affine) while preserv
 
 Similarity transformations preserve shapes, angles, and proportional distances
 
+	$q=sRp+d$
+	
+	where:
+	
+	- s is one uniform scale factor
+	- R is a rotation or reflection matrix
+	- d is translation
+	
+	A circle remains a circle, and a sphere remains a sphere.
+	
+	It preserves:
+	
+	- angles
+	- proportions
+	- parallel lines
+	- shape
+	
+	It does not necessarily preserve actual lengths because of scaling.
+
 Affine transformations preserve parallelism, collinearity, and convexity, but not angles and lengths
 
-	q=Ap+d
+	$q=Ap+d$
 	
-	where AAA can include:
+	where A can include:
 	
 	- rotation
 	- translation
@@ -104,3 +123,5 @@ Affine transformations preserve parallelism, collinearity, and convexity, but no
 	- angles
 	- lengths
 	- shape
+
+Similarity transformations are a subset of affine transformations
