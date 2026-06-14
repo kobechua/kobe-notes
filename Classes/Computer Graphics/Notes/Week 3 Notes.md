@@ -77,51 +77,19 @@ straightforward whenever possible
 
 ### Geometry Transformation Strategies
 #### Transformation of Geometry 
-Many types of geometries can be transformed (Similarity or Affine) while preserving geometric properties
+Many types of geometries can be transformed (Similarity or Affine) while preserving geometric properties. The geometry equation may be more complicated after transformation
 
 Similarity transformations preserve shapes, angles, and proportional distances
 
-	$q=sRp+d$
-	
-	where:
-	
-	- s is one uniform scale factor
-	- R is a rotation or reflection matrix
-	- d is translation
-	
-	A circle remains a circle, and a sphere remains a sphere.
-	
-	It preserves:
-	
-	- angles
-	- proportions
-	- parallel lines
-	- shape
-	
-	It does not necessarily preserve actual lengths because of scaling.
+$q=sRp+d$
+
+Similarity transformations preserve shapes, angles, and proportional distances. This means that the object maintains its original proportions and overall structure.
 
 Affine transformations preserve parallelism, collinearity, and convexity, but not angles and lengths
 
-	$q=Ap+d$
-	
-	where A can include:
-	
-	- rotation
-	- translation
-	- uniform or non-uniform scaling
-	- reflection
-	- shearing
-	
-	An affine transformation preserves:
-	
-	- straight lines
-	- parallel lines
-	- ratios of distances along the same line
-	
-	It does not necessarily preserve:
-	
-	- angles
-	- lengths
-	- shape
+$q=Ap+d$
 
-Similarity transformations are a subset of affine transformations
+Affine transformations, on the other hand, preserve parallelism, collinearity, and convexity, but they do not preserve angles or lengths. These transformations allow for more flexibility, like stretching or shearing, but at the cost of distorting the original geometry.
+
+Similarity transformations are a subset of affine transformations.
+
