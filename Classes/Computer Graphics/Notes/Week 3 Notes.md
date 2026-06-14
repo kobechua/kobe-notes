@@ -65,3 +65,10 @@ If you derived a generic affine transformed sphere equation, you would need to p
 - Starting with a unit sphere, defined by its basic equation. When an arbitrary affine transformation is applied, which must account for non-uniform scaling or shearing, the result is a more complex quadratic surface that must be derived. 
 - The sphere's surface transformed by the affine transformation might represent an ellipsoid or a more generalized quadratic geometry with skewed or off-axis orientations
 - The transformed control values define the geometry, but the resulting equation is significantly more complicated than a sphere which only has a center point and radius to describe it
+
+In summary, while the initial transformation of a sphere
+into a quadratic surface is technically feasible, it add a lot
+of complexity to the description of the geometry and
+becomes difficult to work with. This observation
+demonstrates the value of keeping transformations
+straightforward whenever possible
