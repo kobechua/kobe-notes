@@ -25,3 +25,12 @@ Ray tracing is computationally intensive, involving millions of rays interacting
 ## Object Instancing Overview
 
 ### Transforming a Sphere
+Consider a Sphere (or Circle) of unit radius
+- $P \cdot P = 1$
+
+We may want to transform points $P$ by a Similarity Transform:
+$Q = sRP + d$ 
+- Q is the transformed point in 3D space
+- s is the scalar representing uniform scaling
+- R is a 3x3 rotational matrix
+- d is a translation vector
