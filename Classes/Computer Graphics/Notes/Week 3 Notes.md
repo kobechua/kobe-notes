@@ -42,3 +42,4 @@ Rearranging P in terms of Q
 
 ![[Pasted image 20260614140246.png]]
 
+![[Pasted image 20260614143046.png]]
