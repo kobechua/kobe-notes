@@ -93,3 +93,8 @@ Affine transformations, on the other hand, preserve parallelism, collinearity, a
 
 Similarity transformations are a subset of affine transformations.
 
+![[Pasted image 20260614172315.png]]
+
+### Ray Tracing Transformed Geometry
+
+#### Ray Tracing Transformed Geometry
