@@ -43,3 +43,5 @@ Rearranging P in terms of Q
 ![[Pasted image 20260614140246.png]]
 
 ![[Pasted image 20260614143046.png]]
+
+This shows that rotating a sphere does not change its appearance or equation because a sphere is rotationally symmetric. Only translation $d$ change
