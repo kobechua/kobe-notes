@@ -56,4 +56,4 @@ $$
 $$
 - The sphere center position vector $d$
 - Sphere radius $s$
-- We can apply a similarity transform to the default spheres initial position $d = 0$ and scale $s = 1$ to determine where the spher
+- We can apply a similarity transform to the default spheres initial position $d = 0$ and scale $s = 1$ to determine where the sphere is, then perform a ray intersection against the equation above
