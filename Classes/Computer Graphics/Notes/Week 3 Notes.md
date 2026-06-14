@@ -72,3 +72,9 @@ of complexity to the description of the geometry and
 becomes difficult to work with. This observation
 demonstrates the value of keeping transformations
 straightforward whenever possible
+
+![[Pasted image 20260614150059.png]]
+
+
+
+### Geometry Transformation Strategies
