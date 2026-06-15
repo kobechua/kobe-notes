@@ -178,7 +178,7 @@ AABBs can define bounds of a more complex object to quickly reject or narrow dow
 
 AABB, but within its own local coordinate system and uses object instancing. Note that OBB is more  efficient if inverse transformation matrix is not already available
 
-
+6.4.2 DONE
 
 ***understand what is the slide trying to tell you,***
 ***take notes of things you DONT understand***
