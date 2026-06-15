@@ -126,7 +126,11 @@ How we actually transform the surface normal.
 
 normal $n$ is perpendicular to any vector $v$ in the tangent plane. Therefore, we must find an $n'$ such that it is perpendicular to the transformed surface
 
+$n' \cdot (Mv) = 0$, $\forall v \in Tangent\ Plane$    
 
+![[Pasted image 20260615161148.png]]
+
+Shows how we can derive $n'$ from 
 
 ***understand what is the slide trying to tell you,***
 ***take notes of things you DONT understand***
