@@ -132,7 +132,7 @@ $n' \cdot (Mv) = 0$, $\forall v \in Tangent\ Plane$
 
 Shows how we can derive $n'$ using the transpose property
 
-
+# Object Instancing Method
 
 ***understand what is the slide trying to tell you,***
 ***take notes of things you DONT understand***
