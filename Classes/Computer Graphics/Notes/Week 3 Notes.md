@@ -167,7 +167,14 @@ Breaking up object geometry into more managable components. This is a special ca
 # Ray Box Intersection
 ![[Pasted image 20260615164220.png]]
 
-AABBs can define bounds of a more complex object to quickly reject or narrow down ray misses 
+AABBs can define bounds of a more complex object to quickly reject or narrow down ray misses. 
+
+![[Pasted image 20260615164843.png]]
+
+![[Pasted image 20260615165132.png]]
+
+### Oriented Bounding Boxes (OBBs)
+
 
 ***understand what is the slide trying to tell you,***
 ***take notes of things you DONT understand***
