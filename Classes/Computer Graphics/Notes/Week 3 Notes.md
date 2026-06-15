@@ -130,7 +130,9 @@ $n' \cdot (Mv) = 0$, $\forall v \in Tangent\ Plane$
 
 ![[Pasted image 20260615161148.png]]
 
-Shows how we can derive $n'$ from 
+Shows how we can derive $n'$ using the transpose property
+
+
 
 ***understand what is the slide trying to tell you,***
 ***take notes of things you DONT understand***
