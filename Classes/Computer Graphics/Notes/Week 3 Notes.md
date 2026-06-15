@@ -114,7 +114,7 @@ In Method 1, we may have to apply transformations to all 10,000 vertices, surfac
 
 ### Transforming Surface Normals
 
-![[Pasted image 20260614180033.png]]
+![[Pasted image 20260615155622.png]]
 
 
 
