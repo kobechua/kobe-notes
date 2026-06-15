@@ -157,7 +157,17 @@ Basic techniques for object subdivision
 
 ![[Pasted image 20260615163729.png]]
 
-Divides space in disjoint regions and assigning obje
+Divides space in disjoint regions and assigning objects to regions they are intersecting. These methods optimize pruning an ray tracing
+
+![[Pasted image 20260615163855.png]]
+Breaking up object geometry into more managable components. This is a special case for single objects
+
+![[Pasted image 20260615164047.png]]
+
+# Ray Box Intersection
+![[Pasted image 20260615164220.png]]
+
+To improve efficiency 
 
 ***understand what is the slide trying to tell you,***
 ***take notes of things you DONT understand***
