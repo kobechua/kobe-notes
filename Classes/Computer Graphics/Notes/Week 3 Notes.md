@@ -120,5 +120,13 @@ Note bullet 3
 
 Surface normals are hard to transform because it loses orthogonality. We can find a way to transfrom normal $n$ such that $n'$ is still orthogonal to the surface
 
+![[Pasted image 20260615160534.png]]
+
+How we actually transform the surface normal.
+
+normal $n$ is perpendicular to any vector $v$ in the tangent plane. Therefore, we must find an $n'$ such that it is perpendicular to the transformed surface
+
+
+
 ***understand what is the slide trying to tell you,***
 ***take notes of things you DONT understand***

@@ -37,6 +37,8 @@ We calculate surface normal by taking the negative of the sign of the ray's dire
 $$
 N = -Sign(D[axis])\cdot\hat{e}_{axis}
 $$
+
+
 ### Direct and Indirect Illumination
 Direct illumination is light that reaches a surface directly from a light source. 
 - Synthesized surfaces not directly lit by a light source appear unrealistically dark or completely black.
