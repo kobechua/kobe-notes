@@ -116,7 +116,9 @@ In Method 1, we may have to apply transformations to all 10,000 vertices, surfac
 
 ![[Pasted image 20260615155622.png]]
 
+Note bullet 3
 
+Surface normals are hard to transform because it loses orthogonality. We can find a way to transfrom normal $n$ such that $n'$ is still orthogonal to the surface
 
 ***understand what is the slide trying to tell you,***
 ***take notes of things you DONT understand***
