@@ -174,6 +174,10 @@ AABBs can define bounds of a more complex object to quickly reject or narrow dow
 ![[Pasted image 20260615165132.png]]
 
 ### Oriented Bounding Boxes (OBBs)
+![[Pasted image 20260615165258.png]]
+
+AABB, but within its own local coordinate system and uses object instancing. Note that OBB is more  efficient if inverse transformation matrix is not already available
+
 
 
 ***understand what is the slide trying to tell you,***
