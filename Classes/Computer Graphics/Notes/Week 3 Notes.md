@@ -146,7 +146,18 @@ Upon a hit compute into world space, otherwise simply return false
 # Subdivision
 
 ![[Pasted image 20260615163237.png]]
+Break down complexity for in computer graphic scenes. Main categories are
 
+Object Subdivision: Focuses on defining approximations of geometry bounds, which can expand to describe groups of objects
+Spatial Subdivision: Organizes the space of the scene
+
+![[Pasted image 20260615163556.png]]
+
+Basic techniques for object subdivision
+
+![[Pasted image 20260615163729.png]]
+
+Divides space in disjoint regions and assigning obje
 
 ***understand what is the slide trying to tell you,***
 ***take notes of things you DONT understand***
