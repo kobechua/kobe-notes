@@ -233,6 +233,10 @@ We can step through the grid without recomputing because we precomputed
 
 ![[Pasted image 20260616173209.png]]
 
+### Basic Splitting Methods
+![[Pasted image 20260616173424.png]]
+
+
 
 ***understand what is the slide trying to tell you,***
 ***take notes of things you DONT understand***
