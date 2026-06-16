@@ -225,6 +225,11 @@ We can step through the grid without recomputing because we precomputed
 ![[Pasted image 20260616172550.png]]
 
 # BVH
+![[Pasted image 20260616172638.png]]
+
+![[Pasted image 20260616172800.png]]
+
+
 
 ***understand what is the slide trying to tell you,***
 ***take notes of things you DONT understand***
