@@ -206,6 +206,10 @@ Iterate over all points and find the min and max of each dimension
 
 ![[Pasted image 20260616171439.png]]
 
+![[Pasted image 20260616171614.png]]
 
+![[Pasted image 20260616171753.png]]
+
+## 3
 ***understand what is the slide trying to tell you,***
 ***take notes of things you DONT understand***
