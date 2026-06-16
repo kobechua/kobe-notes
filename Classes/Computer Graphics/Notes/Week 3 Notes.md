@@ -265,7 +265,13 @@ BVH that balances traversal efficiency and intersection likelihood
 
 ![[Pasted image 20260616174639.png]]
 
+## BVH Applications and Summary
+![[Pasted image 20260616174832.png]]
 
+![[Pasted image 20260616174843.png]]
 
+![[Pasted image 20260616174857.png]]
+
+# 
 ***understand what is the slide trying to tell you,***
 ***take notes of things you DONT understand***
