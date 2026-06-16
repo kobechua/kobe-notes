@@ -276,6 +276,8 @@ BVH that balances traversal efficiency and intersection likelihood
 ![[Pasted image 20260616174955.png]]
 Organize space to simplify queries
 ![[Pasted image 20260616175059.png]]
+![[Pasted image 20260616175159.png]]
+![[Pasted image 20260616175316.png]]
 
 
 ***understand what is the slide trying to tell you,***
