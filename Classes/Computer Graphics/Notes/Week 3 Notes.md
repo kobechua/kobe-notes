@@ -252,6 +252,11 @@ We can step through the grid without recomputing because we precomputed
 
 ![[Pasted image 20260616174259.png]]
 
+![[Pasted image 20260616174318.png]]
+
+![[Pasted image 20260616174353.png]]
+If a parent is hit, what is the probability of a child getting hit
+Children becoming intermediate nodes help optimize
 
 ***understand what is the slide trying to tell you,***
 ***take notes of things you DONT understand***
