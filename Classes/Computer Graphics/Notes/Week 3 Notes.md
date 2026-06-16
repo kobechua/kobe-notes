@@ -246,7 +246,7 @@ We can step through the grid without recomputing because we precomputed
 
 ![[Pasted image 20260616173822.png]]
 
-
+![[Pasted image 20260616174014.png]]
 
 ***understand what is the slide trying to tell you,***
 ***take notes of things you DONT understand***
