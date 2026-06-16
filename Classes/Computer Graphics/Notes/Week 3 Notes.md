@@ -221,5 +221,10 @@ Iterate over all points and find the min and max of each dimension
 We can step through the grid without recomputing because we precomputed
 ![[Pasted image 20260616172301.png]]
 
+![[Pasted image 20260616172438.png]]
+![[Pasted image 20260616172550.png]]
+
+# BVH
+
 ***understand what is the slide trying to tell you,***
 ***take notes of things you DONT understand***
