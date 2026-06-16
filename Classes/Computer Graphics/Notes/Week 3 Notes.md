@@ -236,6 +236,14 @@ We can step through the grid without recomputing because we precomputed
 ### Basic Splitting Methods
 ![[Pasted image 20260616173424.png]]
 
+![[Pasted image 20260616173519.png]]
+
+1. start with root node containing all primitives
+2. apply first split, root node divided into two intermediate nodes
+3. apply second split, where intermediate node is further divided into child nodes.
+
+![[Pasted image 20260616173645.png]]
+
 
 
 ***understand what is the slide trying to tell you,***
