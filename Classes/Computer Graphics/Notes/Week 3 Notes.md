@@ -184,6 +184,9 @@ Iterate over all points and find the min and max of each dimension
 
 ![[Pasted image 20260616165615.png]]
 
+![[Pasted image 20260616165952.png]]
+
+![[Pasted image 20260616170116.png]]
 
 
 
