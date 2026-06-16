@@ -200,6 +200,10 @@ Iterate over all points and find the min and max of each dimension
 # 3D Grids and DDA
 ![[Pasted image 20260616171121.png]]
 
+![[Pasted image 20260616171206.png]]
+
+![[Pasted image 20260616171330.png]]
+
 
 
 ***understand what is the slide trying to tell you,***
