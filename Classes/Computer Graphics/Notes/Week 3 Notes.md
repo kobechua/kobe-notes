@@ -279,6 +279,7 @@ Organize space to simplify queries
 ![[Pasted image 20260616175159.png]]
 ![[Pasted image 20260616175316.png]]
 ![[Pasted image 20260616175559.png]]
+![[Pasted image 20260616175753.png]]
 
 
 ***understand what is the slide trying to tell you,***
