@@ -210,6 +210,12 @@ Iterate over all points and find the min and max of each dimension
 
 ![[Pasted image 20260616171753.png]]
 
-## 3
+## 3D Digital Differential Analyzer
+![[Pasted image 20260616171846.png]]
+
+![[Pasted image 20260616171947.png]]
+
+
+
 ***understand what is the slide trying to tell you,***
 ***take notes of things you DONT understand***
