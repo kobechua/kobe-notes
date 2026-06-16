@@ -258,5 +258,14 @@ We can step through the grid without recomputing because we precomputed
 If a parent is hit, what is the probability of a child getting hit
 Children becoming intermediate nodes help optimize
 
+![[Pasted image 20260616174516.png]]
+BVH that balances traversal efficiency and intersection likelihood
+
+## BVH Traversal
+
+![[Pasted image 20260616174639.png]]
+
+
+
 ***understand what is the slide trying to tell you,***
 ***take notes of things you DONT understand***
