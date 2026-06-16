@@ -180,6 +180,7 @@ AABB, but within its own local coordinate system and uses object instancing. Not
 
 ### Generating AABB for Geometry
 ![[Pasted image 20260616165327.png]]
+Iterate over all points and find the min and max of each dimension
 
 
 ***understand what is the slide trying to tell you,***
