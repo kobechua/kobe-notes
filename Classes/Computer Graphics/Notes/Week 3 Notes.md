@@ -272,6 +272,11 @@ BVH that balances traversal efficiency and intersection likelihood
 
 ![[Pasted image 20260616174857.png]]
 
-# 
+# KD Trees
+![[Pasted image 20260616174955.png]]
+Organize space to simplify queries
+![[Pasted image 20260616175059.png]]
+
+
 ***understand what is the slide trying to tell you,***
 ***take notes of things you DONT understand***
