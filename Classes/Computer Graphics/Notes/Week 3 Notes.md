@@ -282,5 +282,10 @@ Organize space to simplify queries
 ![[Pasted image 20260616175753.png]]
 
 
+# Recursive Ray Tracing
+![[Pasted image 20260619151205.png]]
+Using recursive ray tracing to 
+
+![[Pasted image 20260619151359.png]]
 ***understand what is the slide trying to tell you,***
 ***take notes of things you DONT understand***
