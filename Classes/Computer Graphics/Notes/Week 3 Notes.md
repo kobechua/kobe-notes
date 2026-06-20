@@ -290,6 +290,13 @@ Organize space to simplify queries
 ![[Pasted image 20260619151646.png]]
 How can we modify the current ray to handle how light reflects off objects
 
+## Shadow Rays
+![[Pasted image 20260619233157.png]]
+
+![[Pasted image 20260619233311.png]]
+Cast a shadow ray from the intersection point to the light and if it intersects an object before reaching the light, the point is in shadow
+
+![[Pasted image 20260619233502.png]]
 
 
 
