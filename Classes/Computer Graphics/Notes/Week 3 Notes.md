@@ -374,5 +374,8 @@ Shows how the size of a horizontal circle narrows as the polar angle converges o
 ## Radiometry Projected Power
 ![[Pasted image 20260621161246.png]]
 
+## Radiometry Radiance
+![[Pasted image 20260621162044.png]]
+
 ***understand what is the slide trying to tell you,***
 ***take notes of things you DONT understand***
