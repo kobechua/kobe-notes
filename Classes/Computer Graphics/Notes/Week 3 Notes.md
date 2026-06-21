@@ -380,7 +380,11 @@ Shows how the size of a horizontal circle narrows as the polar angle converges o
 ## Radiometry Irradiance
 ![[Pasted image 20260621162140.png]]
 
+## Radiometry Reflectance
+![[Pasted image 20260621162321.png]]
 
+## Radiometry Bidirectional Reflectance Distribution Function
+![[Pasted image 20260621162447.png]]
 
 ***understand what is the slide trying to tell you,***
 ***take notes of things you DONT understand***
