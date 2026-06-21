@@ -326,6 +326,9 @@ $n$ = refractive index of the medium the ray is traveling in
 $n_t$ = the refractive index of the other medium
 critical angle given by solving for $\theta_c$ 
 ![[Pasted image 20260621115506.png]]
+![[Pasted image 20260621115826.png]]
+$n_t \approx n$ means $n_t$ is nearly equal to $n$
+![[Pasted image 20260621115925.png]]
 
 ***understand what is the slide trying to tell you,***
 ***take notes of things you DONT understand***
