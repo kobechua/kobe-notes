@@ -337,7 +337,12 @@ Approximates Fresnel effect.
 Changes strength of Blinn-Phong highlight based on angle
 ![[Pasted image 20260621151546.png]]
 # Radiometry
-## Introduction T
+## Introduction to Radiometry: The Measurement of Light
+- Radiometry is the measurement of light passing through space in terms of energy and power
+
+![[Pasted image 20260621151835.png]]
+
+
 
 ***understand what is the slide trying to tell you,***
 ***take notes of things you DONT understand***
