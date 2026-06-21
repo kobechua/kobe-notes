@@ -322,6 +322,9 @@ $n_t$ for transmission
 ![[Pasted image 20260620235804.png]]
 formula for refracted rays
 ![[Pasted image 20260621114828.png]]
-$n$ = refractive index of h
+$n$ = refractive index of the medium the ray is traveling in 
+$n_t$ = the refractive index of the other medium
+critical angle given by solving for $\theta_c$ 
+
 ***understand what is the slide trying to tell you,***
 ***take notes of things you DONT understand***
