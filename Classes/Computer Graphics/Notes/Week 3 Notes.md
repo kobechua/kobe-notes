@@ -356,6 +356,11 @@ Changes strength of Blinn-Phong highlight based on angle
 ![[Pasted image 20260621160114.png]]
 $\theta$ Polar angle
 $\phi$ Azimuthal angle
-Shows how the size of a horizontal circle narrows as the polar angle converges on either pole, reducing the contribution of 
+Shows how the size of a horizontal circle narrows as the polar angle converges on either pole, reducing the contribution of directions near the poles. Allows us to integrate light in different parts of a sphere
+![[Pasted image 20260621160533.png]]
+
+## Radiometry Radiant Intensity
+![[Pasted image 20260621160603.png]]
+
 ***understand what is the slide trying to tell you,***
 ***take notes of things you DONT understand***
