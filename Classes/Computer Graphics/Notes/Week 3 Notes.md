@@ -367,5 +367,8 @@ Shows how the size of a horizontal circle narrows as the polar angle converges o
 ## Radiometry Radiance Measurement
 ![[Pasted image 20260621160810.png]]
 
+![[Pasted image 20260621160917.png]]
+
+
 ***understand what is the slide trying to tell you,***
 ***take notes of things you DONT understand***
