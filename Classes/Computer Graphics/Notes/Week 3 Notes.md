@@ -350,6 +350,8 @@ Changes strength of Blinn-Phong highlight based on angle
 
 ![[Pasted image 20260621153007.png]]
 
+## Radiometry Light Directions with Polar Coordinates
+![[Pasted image 20260621153319.png]]
 
 ***understand what is the slide trying to tell you,***
 ***take notes of things you DONT understand***
