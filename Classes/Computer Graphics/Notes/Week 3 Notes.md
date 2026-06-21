@@ -335,5 +335,6 @@ switching $n$ and $n_t$
 ![[Pasted image 20260621120221.png]]
 Approximates Fresnel effect.
 Changes strength of Blinn-Phong highlight based on angle
+
 ***understand what is the slide trying to tell you,***
 ***take notes of things you DONT understand***
