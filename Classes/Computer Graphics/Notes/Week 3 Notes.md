@@ -342,6 +342,8 @@ Changes strength of Blinn-Phong highlight based on angle
 
 ![[Pasted image 20260621151835.png]]
 
+![[Pasted image 20260621152022.png]]
+
 
 
 ***understand what is the slide trying to tell you,***
