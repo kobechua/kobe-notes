@@ -143,7 +143,7 @@ Upon a hit compute into world space, otherwise simply return false
 ![[Pasted image 20260615162718.png]]
 
 
-# Subdivision
+## Subdivision
 
 ![[Pasted image 20260615163237.png]]
 Break down complexity for in computer graphic scenes. Main categories are
@@ -164,7 +164,7 @@ Breaking up object geometry into more managable components. This is a special ca
 
 ![[Pasted image 20260615164047.png]]
 
-# Ray Box Intersection
+## Ray Box Intersection
 ![[Pasted image 20260615164220.png]]
 
 AABBs can define bounds of a more complex object to quickly reject or narrow down ray misses. 
@@ -197,7 +197,7 @@ Iterate over all points and find the min and max of each dimension
 
 ![[Pasted image 20260616170748.png]]
 
-# 3D Grids and DDA
+## 3D Grids and DDA
 ![[Pasted image 20260616171121.png]]
 
 ![[Pasted image 20260616171206.png]]
@@ -224,7 +224,7 @@ We can step through the grid without recomputing because we precomputed
 ![[Pasted image 20260616172438.png]]
 ![[Pasted image 20260616172550.png]]
 
-# BVH
+## BVH
 ![[Pasted image 20260616172638.png]]
 
 ![[Pasted image 20260616172800.png]]
@@ -272,7 +272,7 @@ BVH that balances traversal efficiency and intersection likelihood
 
 ![[Pasted image 20260616174857.png]]
 
-# KD Trees
+## KD Trees
 ![[Pasted image 20260616174955.png]]
 Organize space to simplify queries
 ![[Pasted image 20260616175059.png]]
@@ -335,6 +335,9 @@ switching $n$ and $n_t$
 ![[Pasted image 20260621120221.png]]
 Approximates Fresnel effect.
 Changes strength of Blinn-Phong highlight based on angle
+![[Pasted image 20260621151546.png]]
+# Radiometry
+## Introduction T
 
 ***understand what is the slide trying to tell you,***
 ***take notes of things you DONT understand***
