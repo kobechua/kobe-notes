@@ -393,6 +393,13 @@ Glossiness, roughness, and other material reflectance characteristics
 
 ![[Pasted image 20260621162813.png]]
 
+![[Pasted image 20260621162903.png]]
+
+![[Pasted image 20260621162956.png]]
+The angle of incidence is equal to the angle of reflection
+
+![[Pasted image 20260621163041.png]]
+
 
 ***understand what is the slide trying to tell you,***
 ***take notes of things you DONT understand***
