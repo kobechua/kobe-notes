@@ -385,6 +385,10 @@ Shows how the size of a horizontal circle narrows as the polar angle converges o
 
 ## Radiometry Bidirectional Reflectance Distribution Function
 ![[Pasted image 20260621162447.png]]
+Glossiness, roughness, and other material reflectance characteristics
+![[Pasted image 20260621162612.png]]
+![[Pasted image 20260621162637.png]]
+
 
 ***understand what is the slide trying to tell you,***
 ***take notes of things you DONT understand***
