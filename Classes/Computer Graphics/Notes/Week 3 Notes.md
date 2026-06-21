@@ -325,6 +325,7 @@ formula for refracted rays
 $n$ = refractive index of the medium the ray is traveling in 
 $n_t$ = the refractive index of the other medium
 critical angle given by solving for $\theta_c$ 
+![[Pasted image 20260621115506.png]]
 
 ***understand what is the slide trying to tell you,***
 ***take notes of things you DONT understand***
