@@ -361,6 +361,11 @@ Shows how the size of a horizontal circle narrows as the polar angle converges o
 
 ## Radiometry Radiant Intensity
 ![[Pasted image 20260621160603.png]]
+## Radiometry Isotropic Light Source
+![[Pasted image 20260621160707.png]]
+
+## Radiometry Radiance Measurement
+![[Pasted image 20260621160810.png]]
 
 ***understand what is the slide trying to tell you,***
 ***take notes of things you DONT understand***
