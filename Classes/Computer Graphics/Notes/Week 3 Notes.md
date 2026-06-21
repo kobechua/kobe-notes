@@ -305,6 +305,12 @@ We can determine if a shadow ray is in shadow by looking at the direction of a s
 
 ![[Pasted image 20260620231730.png]]
 
+## Reflection
+
+![[Pasted image 20260620231921.png]]
+
+![[Pasted image 20260620232415.png]]
+
 
 
 ***understand what is the slide trying to tell you,***
