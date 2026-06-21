@@ -344,7 +344,8 @@ Changes strength of Blinn-Phong highlight based on angle
 
 ![[Pasted image 20260621152022.png]]
 
-![[Pasted image 20260621152236.png]]
+![[Pasted image 20260621152930.png]]
 
+## Radiometry Spectral Q
 ***understand what is the slide trying to tell you,***
 ***take notes of things you DONT understand***
