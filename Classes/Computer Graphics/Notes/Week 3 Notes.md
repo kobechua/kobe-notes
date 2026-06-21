@@ -332,5 +332,7 @@ $n_t \approx n$ means $n_t$ is nearly equal to $n$
 ![[Pasted image 20260621120039.png]]
 switching $n$ and $n_t$
 ![[Pasted image 20260621120128.png]]
+![[Pasted image 20260621120221.png]]
+Approximates Fresnel effect
 ***understand what is the slide trying to tell you,***
 ***take notes of things you DONT understand***
