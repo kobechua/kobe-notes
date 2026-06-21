@@ -400,6 +400,12 @@ The angle of incidence is equal to the angle of reflection
 
 ![[Pasted image 20260621163041.png]]
 
+## Radiometry Radiosity
+![[Pasted image 20260621163158.png]]
+
+![[Pasted image 20260621163244.png]]
+
+![[Pasted image 20260621163301.png]]
 
 ***understand what is the slide trying to tell you,***
 ***take notes of things you DONT understand***
