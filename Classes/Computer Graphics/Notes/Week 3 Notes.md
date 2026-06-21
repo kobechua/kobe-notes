@@ -321,6 +321,7 @@ We can determine if a shadow ray is in shadow by looking at the direction of a s
 $n_t$ for transmission
 ![[Pasted image 20260620235804.png]]
 formula for refracted rays
-
+![[Pasted image 20260621114828.png]]
+$n$ = refractive index of h
 ***understand what is the slide trying to tell you,***
 ***take notes of things you DONT understand***
