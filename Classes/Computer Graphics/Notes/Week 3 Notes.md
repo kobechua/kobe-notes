@@ -389,6 +389,10 @@ Glossiness, roughness, and other material reflectance characteristics
 ![[Pasted image 20260621162612.png]]
 ![[Pasted image 20260621162637.png]]
 
+![[Pasted image 20260621162745.png]]
+
+![[Pasted image 20260621162813.png]]
+
 
 ***understand what is the slide trying to tell you,***
 ***take notes of things you DONT understand***
