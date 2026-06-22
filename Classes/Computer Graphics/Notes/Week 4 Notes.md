@@ -107,3 +107,14 @@ The ray passes thru magnifying glass, going thru two specular refractions before
 ![[Pasted image 20260622183145.png]]
 ![[Pasted image 20260622183319.png]]
 Indirect illumination is not captured by recursive ray tracing
+Recursive ray tracing only considers light contributions from a source, rather than other environmental factors.
+![[Pasted image 20260622183519.png]]
+Recursive ray tracing cannot simulate such interactions since it terminates the ray after the first diffuse bounce.
+![[Pasted image 20260622183600.png]]
+Diffuse surfaces are secondary light sources and scatter light in all directions. Recursive ray tracing cannot account lighting from these sceondary light sources and simply ignores them.
+
+![[Pasted image 20260622183729.png]]
+Recursive ray tracing can directly follow specular paths that haven't reached a diffuse surface. This limitation results in an incomplete representation of the light in an environment
+![[Pasted image 20260622183832.png]]
+Caustics is the focusing and redistribution of light
+![[Pasted image 20260622183912.png]]
