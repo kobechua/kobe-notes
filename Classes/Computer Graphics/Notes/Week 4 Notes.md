@@ -118,3 +118,16 @@ Recursive ray tracing can directly follow specular paths that haven't reached a 
 ![[Pasted image 20260622183832.png]]
 Caustics is the focusing and redistribution of light
 ![[Pasted image 20260622183912.png]]
+![[Pasted image 20260622183936.png]]
+Light begins at L and undergoes 2 specular interactions as it reflects thru the magnifying glass. The light reaches the diffuse surface D then reaches the camera E
+
+![[Pasted image 20260622184028.png]]
+Light reflects/refracts off/through a sequence of one or more specular surfaces $S^+$, hits a diffuse surface D, then reaches the camera E
+
+![[Pasted image 20260622184212.png]]
+
+Solve the integral to calculate outgoing radiance
+Recursive ray tracing only samples direct lighting. Contributions from indirect lighting are ignored resulting in an incorrect radiance at D
+
+![[Pasted image 20260622184354.png]]
+
