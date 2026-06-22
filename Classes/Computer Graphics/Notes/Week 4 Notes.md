@@ -82,4 +82,15 @@ Reusing the samples across all effects, since sampling for each effect is expone
 
 # Recursive Ray Tracing Limitations
 ![[Pasted image 20260622182403.png]]
-Limitations when dealing with complex light 
+Limitations when dealing with complex light interactions, such as indirect illumination and caustics. Recursive ray tracing does not account for the full range of possible light paths. Heckbert's path notation gives insight into light transport
+![[Pasted image 20260622182516.png]]
+A simple path may indicate direct lighting. More complex paths may describe more refraction and reflection effects
+![[Pasted image 20260622182628.png]]
+**Reflection** is when light bounces back. **Refraction** is when light changes angles when passing thru a surface. 
+**Diffuse reflection** is when light scatters in many directions rather than bounces back in a direction
+![[Pasted image 20260622182753.png]]
+() - Grouping operator
+\* - Zero or more occurences of the preceding interaction
+\+ - One or more occurences of the preceding interaction
+\^n - n occurences of the preceding interaction
+I|I OR - 
