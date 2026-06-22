@@ -49,5 +49,23 @@ The Aperture square controls the blur strength with configurable size, located a
 
 ## Distribution Ray Tracing Glossy Reflections
 ![[Pasted image 20260622181401.png]]
+Reflection where light is scattered in a controlled manner around the ideal reflection direction, resulting in highlights that appear soft or blurred.
 
+![[Pasted image 20260622181443.png]]
+After a ray hits an object, the reflected ray is distributed
+![[Pasted image 20260622181524.png]]
+U and V used as offsets to perturb the reflection direction
+![[Pasted image 20260622181629.png]]
+High roughness or a larger square means broader scattering. Smaller square are glossier
+![[Pasted image 20260622181701.png]]
+Invalid rays 
 
+## Distribution Ray Tracing Translucency
+![[Pasted image 20260622181735.png]]
+Implemented by diffusing light once a ray passes through a translucent surface
+![[Pasted image 20260622181803.png]]
+## Distributed Ray Tracing Motion Blur
+![[Pasted image 20260622181819.png]]
+Light over time blends the position of objects
+![[Pasted image 20260622181835.png]]
+Assign a random time to each ray and distributes the motion
