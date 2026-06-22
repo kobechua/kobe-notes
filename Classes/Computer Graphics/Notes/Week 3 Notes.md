@@ -407,5 +407,7 @@ The angle of incidence is equal to the angle of reflection
 
 ![[Pasted image 20260621163301.png]]
 ![[Pasted image 20260621163329.png]]
+What is irradiance
+
 ***understand what is the slide trying to tell you,***
 ***take notes of things you DONT understand***
