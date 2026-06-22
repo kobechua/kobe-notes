@@ -35,4 +35,19 @@ The smoothness increase as sampling increases
  Each point tested to see if its in the circle, by seeing if the squared distance from the center to the point is less than the radius squared.
 ![[Pasted image 20260622180837.png]]
 Different light fixtures and how the light orients
-## Distribution Depth of
+## Distribution Depth of Field
+![[Pasted image 20260622180918.png]]
+The range of distances within a scene that appear acceptably sharp in an image. The focused object is sharp while the background is blurry. 
+![[Pasted image 20260622181019.png|697]]
+![[Pasted image 20260622181031.png]]
+Focus plane is the distance where objects appear sharp. The conventional image plane iw colocated with the focus plane
+
+The Aperture square controls the blur strength with configurable size, located at the camera origin to simulate aperture sampling
+![[Pasted image 20260622181047.png]]
+
+![[Pasted image 20260622181303.png]]
+
+## Distribution Ray Tracing Glossy Reflections
+![[Pasted image 20260622181401.png]]
+
+
