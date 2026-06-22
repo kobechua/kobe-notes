@@ -30,3 +30,9 @@ Soft shadows are more realistic and simulate subtle shading variations in real w
 ![[Pasted image 20260622180107.png]]
 The smoothness increase as sampling increases
 ![[Pasted image 20260622180246.png]]
+ Rectangular light area poorly represents light sources
+ ![[Pasted image 20260622180707.png]]
+ Each point tested to see if its in the circle, by seeing if the squared distance from the center to the point is less than the radius squared.
+![[Pasted image 20260622180837.png]]
+Different light fixtures and how the light orients
+## Distribution Depth of
