@@ -131,3 +131,4 @@ Recursive ray tracing only samples direct lighting. Contributions from indirect 
 
 ![[Pasted image 20260622184354.png]]
 
+![[Pasted image 20260622184519.png]]
