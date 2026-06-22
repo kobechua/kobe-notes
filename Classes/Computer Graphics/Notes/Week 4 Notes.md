@@ -68,4 +68,18 @@ Implemented by diffusing light once a ray passes through a translucent surface
 ![[Pasted image 20260622181819.png]]
 Light over time blends the position of objects
 ![[Pasted image 20260622181835.png]]
-Assign a random time to each ray and distributes the motion
+Assign a random time to each ray and distributes the blur among the motion path of the scenes objects. More time samples -> smoother blur.
+Interpolate based on the objects velocity/acceleration/derivatives of motion. Combine results of all rays over the exposure interval
+## Distribution Ray Tracing Simultaneous Distribution Effects
+![[Pasted image 20260622182042.png]]
+![[Pasted image 20260622182057.png]]
+![[Pasted image 20260622182118.png]]
+Reusing the samples across all effects, since sampling for each effect is exponentially expensive $16^n$ where n is the number of distribution effects
+![[Pasted image 20260622182202.png]]
+![[Pasted image 20260622182218.png]]
+## Conclusion
+![[Pasted image 20260622182305.png]]
+
+# Recursive Ray Tracing Limitations
+![[Pasted image 20260622182403.png]]
+Limitations when dealing with complex light 
