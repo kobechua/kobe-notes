@@ -93,4 +93,17 @@ A simple path may indicate direct lighting. More complex paths may describe more
 \* - Zero or more occurences of the preceding interaction
 \+ - One or more occurences of the preceding interaction
 \^n - n occurences of the preceding interaction
-I|I OR - 
+I|I OR - represents OR, allowing alternative paths
+
+![[Pasted image 20260622182931.png]]
+
+![[Pasted image 20260622182946.png]]
+Array originates from camera, travels to table, table reflects diffusely and travels to light source.
+
+![[Pasted image 20260622183024.png]]
+Light can interact diffusely or specularly with the bowling ball.
+![[Pasted image 20260622183053.png]]
+The ray passes thru magnifying glass, going thru two specular refractions before reaching the bowling ball. It diffusely reflects light towards the source. 
+![[Pasted image 20260622183145.png]]
+![[Pasted image 20260622183319.png]]
+Indirect illumination is not captured by recursive ray tracing
