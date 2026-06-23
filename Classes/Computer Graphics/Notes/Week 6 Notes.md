@@ -37,3 +37,10 @@ Only 20 samples used but focused near spike, resulting in a close estimate
 ## The Reflectance Equation
 ![[Pasted image 20260623165315.png]]
 $L_o(x,k_o)$ the total reflected light leaving the surface
+![[Pasted image 20260623165550.png]]
+Computationally expensive since we are raycasting
+![[Pasted image 20260623165727.png]]
+
+![[Pasted image 20260623165825.png]]
+WeightRadiance is BRDF
+![[Pasted image 20260623165941.png]]
