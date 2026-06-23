@@ -15,4 +15,11 @@ Uses liner interpolations between points/ accounts for the slope rather than val
 Improves on the rectangle method. Balance between accuracy and computational accuracy
 ![[Pasted image 20260623163630.png]]
 ![[Pasted image 20260623163828.png]]
-They are well suited for high dimensional and complex function where computations become very expensive. More sam
+They are well suited for high dimensional and complex function where computations become very expensive. Monte Carlo integration provide flexibility and efficiency, but has high variance if there isn't enough samples
+![[Pasted image 20260623164043.png]]
+50 random samples
+![[Pasted image 20260623164119.png]]
+Random sampling helps estimate with no bias.
+![[Pasted image 20260623164247.png]]
+Quadrupling samples reduces inaccuracy by half
+![[Pasted image 20260623164422.png]]
