@@ -23,3 +23,10 @@ Random sampling helps estimate with no bias.
 ![[Pasted image 20260623164247.png]]
 Quadrupling samples reduces inaccuracy by half
 ![[Pasted image 20260623164422.png]]
+![[Pasted image 20260623164508.png]]
+The integral is way off, showing that Monte Carlo can fail to capture narrow regions.
+![[Pasted image 20260623164616.png]]
+Only 20 samples used but focused near spike, resulting in a close estimate
+![[Pasted image 20260623164645.png]]
+![[Pasted image 20260623164758.png]]
+![[Pasted image 20260623164824.png]]
