@@ -30,3 +30,10 @@ Only 20 samples used but focused near spike, resulting in a close estimate
 ![[Pasted image 20260623164645.png]]
 ![[Pasted image 20260623164758.png]]
 ![[Pasted image 20260623164824.png]]
+![[Pasted image 20260623165021.png]]
+
+![[Pasted image 20260623165138.png]]
+
+## The Reflectance Equation
+![[Pasted image 20260623165315.png]]
+$L_o(x,k_o)$ the total reflected light leaving the surface
