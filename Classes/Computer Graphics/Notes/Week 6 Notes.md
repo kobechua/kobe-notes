@@ -44,3 +44,7 @@ Computationally expensive since we are raycasting
 ![[Pasted image 20260623165825.png]]
 WeightRadiance is BRDF
 ![[Pasted image 20260623165941.png]]
+
+![[Pasted image 20260623170034.png]]
+
+![[Pasted image 20260623170202.png]]
