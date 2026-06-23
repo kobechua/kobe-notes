@@ -1,134 +1,130 @@
-# Distribution Ray Tracing
-## Distribution Ray Tracing Introduction
-![[Pasted image 20260622172055.png]]
-Overcome the overly clean look of traditional ray tracing and create physical phenomena for realism.
-![[Pasted image 20260622172148.png]]
-Shooting multiple rays with small variations, using the averange of randomized distribution of rays.
-![[Pasted image 20260622175454.png]]
-Refers to the sampling of rays across distributions, not to be confused with distributed computing
-![[Pasted image 20260622175536.png]]
-Aliasing is when a image distorts due to sampling at too low a resolution, causing jagged edges etc
-![[Pasted image 20260622175603.png]]
-![[Pasted image 20260622175645.png]]
-![[Pasted image 20260622175655.png]]
-Stratified or grid sampling. Can get moire patterns 
-![[Pasted image 20260622175711.png]]
-![[Pasted image 20260622175748.png]]
-Random Sampling minimizes patterns and moire, though it can introduce noise unless high number of samples used.
-![[Pasted image 20260622175835.png]]
-Jittered sampling combines the goods of grid and random sampling
-![[Pasted image 20260622175909.png]]
-![[Pasted image 20260622175917.png]]
-How the sampling principles can be applied to other physical phenomena/effects
-![[Pasted image 20260622175927.png]]
-## Distribution Ray Tracing Soft Shadows
-Hard shadows bad and unrealistic
-![[Pasted image 20260622180013.png]]
-Soft shadows are more realistic and simulate subtle shading variations in real world
-![[Pasted image 20260622180030.png]]
+# Recursive Ray Tracing
+![[Pasted image 20260619151205.png]]
 
-![[Pasted image 20260622180107.png]]
-The smoothness increase as sampling increases
-![[Pasted image 20260622180246.png]]
- Rectangular light area poorly represents light sources
- ![[Pasted image 20260622180707.png]]
- Each point tested to see if its in the circle, by seeing if the squared distance from the center to the point is less than the radius squared.
-![[Pasted image 20260622180837.png]]
-Different light fixtures and how the light orients
-## Distribution Depth of Field
-![[Pasted image 20260622180918.png]]
-The range of distances within a scene that appear acceptably sharp in an image. The focused object is sharp while the background is blurry. 
-![[Pasted image 20260622181019.png|697]]
-![[Pasted image 20260622181031.png]]
-Focus plane is the distance where objects appear sharp. The conventional image plane iw colocated with the focus plane
+![[Pasted image 20260619151359.png]]
 
-The Aperture square controls the blur strength with configurable size, located at the camera origin to simulate aperture sampling
-![[Pasted image 20260622181047.png]]
+![[Pasted image 20260619151646.png]]
+How can we modify the current ray to handle how light reflects off objects
 
-![[Pasted image 20260622181303.png]]
+## Shadow Rays
+![[Pasted image 20260619233157.png]]
 
-## Distribution Ray Tracing Glossy Reflections
-![[Pasted image 20260622181401.png]]
-Reflection where light is scattered in a controlled manner around the ideal reflection direction, resulting in highlights that appear soft or blurred.
+![[Pasted image 20260619233311.png]]
+Cast a shadow ray from the intersection point to the light and if it intersects an object before reaching the light, the point is in shadow
 
-![[Pasted image 20260622181443.png]]
-After a ray hits an object, the reflected ray is distributed
-![[Pasted image 20260622181524.png]]
-U and V used as offsets to perturb the reflection direction
-![[Pasted image 20260622181629.png]]
-High roughness or a larger square means broader scattering. Smaller square are glossier
-![[Pasted image 20260622181701.png]]
-Invalid rays 
+![[Pasted image 20260619233502.png]]
+We can determine if a shadow ray is in shadow by looking at the direction of a surface. If the surface of an object is away from the light source, then its probably a shadow.
 
-## Distribution Ray Tracing Translucency
-![[Pasted image 20260622181735.png]]
-Implemented by diffusing light once a ray passes through a translucent surface
-![[Pasted image 20260622181803.png]]
-## Distributed Ray Tracing Motion Blur
-![[Pasted image 20260622181819.png]]
-Light over time blends the position of objects
-![[Pasted image 20260622181835.png]]
-Assign a random time to each ray and distributes the blur among the motion path of the scenes objects. More time samples -> smoother blur.
-Interpolate based on the objects velocity/acceleration/derivatives of motion. Combine results of all rays over the exposure interval
-## Distribution Ray Tracing Simultaneous Distribution Effects
-![[Pasted image 20260622182042.png]]
-![[Pasted image 20260622182057.png]]
-![[Pasted image 20260622182118.png]]
-Reusing the samples across all effects, since sampling for each effect is exponentially expensive $16^n$ where n is the number of distribution effects
-![[Pasted image 20260622182202.png]]
-![[Pasted image 20260622182218.png]]
-## Conclusion
-![[Pasted image 20260622182305.png]]
+![[Pasted image 20260620225854.png]]
 
-# Recursive Ray Tracing Limitations
-![[Pasted image 20260622182403.png]]
-Limitations when dealing with complex light interactions, such as indirect illumination and caustics. Recursive ray tracing does not account for the full range of possible light paths. Heckbert's path notation gives insight into light transport
-![[Pasted image 20260622182516.png]]
-A simple path may indicate direct lighting. More complex paths may describe more refraction and reflection effects
-![[Pasted image 20260622182628.png]]
-**Reflection** is when light bounces back. **Refraction** is when light changes angles when passing thru a surface. 
-**Diffuse reflection** is when light scatters in many directions rather than bounces back in a direction
-![[Pasted image 20260622182753.png]]
-() - Grouping operator
-\* - Zero or more occurences of the preceding interaction
-\+ - One or more occurences of the preceding interaction
-\^n - n occurences of the preceding interaction
-I|I OR - represents OR, allowing alternative paths
+![[Pasted image 20260620231523.png]]
 
-![[Pasted image 20260622182931.png]]
+![[Pasted image 20260620231730.png]]
 
-![[Pasted image 20260622182946.png]]
-Array originates from camera, travels to table, table reflects diffusely and travels to light source.
+## Reflection
 
-![[Pasted image 20260622183024.png]]
-Light can interact diffusely or specularly with the bowling ball.
-![[Pasted image 20260622183053.png]]
-The ray passes thru magnifying glass, going thru two specular refractions before reaching the bowling ball. It diffusely reflects light towards the source. 
-![[Pasted image 20260622183145.png]]
-![[Pasted image 20260622183319.png]]
-Indirect illumination is not captured by recursive ray tracing
-Recursive ray tracing only considers light contributions from a source, rather than other environmental factors.
-![[Pasted image 20260622183519.png]]
-Recursive ray tracing cannot simulate such interactions since it terminates the ray after the first diffuse bounce.
-![[Pasted image 20260622183600.png]]
-Diffuse surfaces are secondary light sources and scatter light in all directions. Recursive ray tracing cannot account lighting from these sceondary light sources and simply ignores them.
+![[Pasted image 20260620231921.png]]
 
-![[Pasted image 20260622183729.png]]
-Recursive ray tracing can directly follow specular paths that haven't reached a diffuse surface. This limitation results in an incomplete representation of the light in an environment
-![[Pasted image 20260622183832.png]]
-Caustics is the focusing and redistribution of light
-![[Pasted image 20260622183912.png]]
-![[Pasted image 20260622183936.png]]
-Light begins at L and undergoes 2 specular interactions as it reflects thru the magnifying glass. The light reaches the diffuse surface D then reaches the camera E
+![[Pasted image 20260620232415.png]]
 
-![[Pasted image 20260622184028.png]]
-Light reflects/refracts off/through a sequence of one or more specular surfaces $S^+$, hits a diffuse surface D, then reaches the camera E
+![[Pasted image 20260620233817.png|697]]
+![[Pasted image 20260620234117.png|685]]
+## Refraction 
+![[Pasted image 20260620233949.png|697]]
+![[Pasted image 20260620234559.png]]
+![[Pasted image 20260620235644.png]]
+![[Pasted image 20260620235704.png]]
+$n_t$ for transmission
+![[Pasted image 20260620235804.png]]
+formula for refracted rays
+![[Pasted image 20260621114828.png]]
+$n$ = refractive index of the medium the ray is traveling in 
+$n_t$ = the refractive index of the other medium
+critical angle given by solving for $\theta_c$ 
+![[Pasted image 20260621115506.png]]
+![[Pasted image 20260621115826.png]]
+$n_t \approx n$ means $n_t$ is nearly equal to $n$
+![[Pasted image 20260621115925.png]]
+![[Pasted image 20260621120039.png]]
+switching $n$ and $n_t$
+![[Pasted image 20260621120128.png]]
+![[Pasted image 20260621120221.png]]
+Approximates Fresnel effect.
+Changes strength of Blinn-Phong highlight based on angle
+![[Pasted image 20260621151546.png]]
+# Radiometry
+## Introduction to Radiometry: The Measurement of Light
+- Radiometry is the measurement of light passing through space in terms of energy and power
 
-![[Pasted image 20260622184212.png]]
+![[Pasted image 20260621151835.png]]
 
-Solve the integral to calculate outgoing radiance
-Recursive ray tracing only samples direct lighting. Contributions from indirect lighting are ignored resulting in an incorrect radiance at D
+![[Pasted image 20260621152022.png]]
 
-![[Pasted image 20260622184354.png]]
+![[Pasted image 20260621152930.png]]
 
-![[Pasted image 20260622184519.png]]
+## Radiometry Spectral Quantities
+
+![[Pasted image 20260621153007.png]]
+
+## Radiometry Light Directions with Polar Coordinates
+![[Pasted image 20260621153319.png]]
+![[Pasted image 20260621155102.png]]
+![[Pasted image 20260621160114.png]]
+$\theta$ Polar angle
+$\phi$ Azimuthal angle
+Shows how the size of a horizontal circle narrows as the polar angle converges on either pole, reducing the contribution of directions near the poles. Allows us to integrate light in different parts of a sphere
+![[Pasted image 20260621160533.png]]
+
+## Radiometry Radiant Intensity
+![[Pasted image 20260621160603.png]]
+## Radiometry Isotropic Light Source
+![[Pasted image 20260621160707.png]]
+
+## Radiometry Radiance Measurement
+![[Pasted image 20260621160810.png]]
+
+![[Pasted image 20260621160917.png]]
+
+![[Pasted image 20260621161134.png]]
+
+## Radiometry Projected Power
+![[Pasted image 20260621161246.png]]
+
+## Radiometry Radiance
+![[Pasted image 20260621162044.png]]
+![[Pasted image 20260621162055.png]]
+## Radiometry Irradiance
+![[Pasted image 20260621162140.png]]
+
+## Radiometry Reflectance
+![[Pasted image 20260621162321.png]]
+
+## Radiometry Bidirectional Reflectance Distribution Function
+![[Pasted image 20260621162447.png]]
+Glossiness, roughness, and other material reflectance characteristics
+![[Pasted image 20260621162612.png]]
+![[Pasted image 20260621162637.png]]
+
+![[Pasted image 20260621162745.png]]
+
+![[Pasted image 20260621162813.png]]
+
+![[Pasted image 20260621162903.png]]
+
+![[Pasted image 20260621162956.png]]
+The angle of incidence is equal to the angle of reflection
+
+![[Pasted image 20260621163041.png]]
+
+## Radiometry Radiosity
+![[Pasted image 20260621163158.png]]
+
+![[Pasted image 20260621163244.png]]
+
+![[Pasted image 20260621163301.png]]
+![[Pasted image 20260621163329.png]]
+What is irradiance
+
+***understand what is the slide trying to tell you,***
+***take notes of things you DONT understand***
+
