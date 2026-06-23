@@ -60,3 +60,12 @@ WeightRadiance is BRDF
 ![[Pasted image 20260623174013.png]]
 ![[Pasted image 20260623174940.png]]
 ![[Pasted image 20260623174958.png]]
+![[Pasted image 20260623175038.png]]
+## Caustic Map
+![[Pasted image 20260623175122.png]]
+
+![[Pasted image 20260623175352.png]]
+Paths that have specular interactions before hitting a diffuse surface
+![[Pasted image 20260623175509.png]]
+![[Pasted image 20260623175501.png]]
+
