@@ -52,3 +52,6 @@ WeightRadiance is BRDF
 ![[Pasted image 20260623170907.png]]
 ![[Pasted image 20260623171417.png]]
 ![[Pasted image 20260623171613.png]]
+![[Pasted image 20260623172038.png]]
+![[Pasted image 20260623172156.png]]
+![[Pasted image 20260623172343.png]]
