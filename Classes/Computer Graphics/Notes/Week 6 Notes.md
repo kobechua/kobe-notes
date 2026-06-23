@@ -55,3 +55,6 @@ WeightRadiance is BRDF
 ![[Pasted image 20260623172038.png]]
 ![[Pasted image 20260623172156.png]]
 ![[Pasted image 20260623172343.png]]
+
+# Photon Mapping Overview
+![[Pasted image 20260623174013.png]]
