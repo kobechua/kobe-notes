@@ -68,4 +68,13 @@ WeightRadiance is BRDF
 Paths that have specular interactions before hitting a diffuse surface
 ![[Pasted image 20260623175509.png]]
 ![[Pasted image 20260623175501.png]]
+To generate a caustic photon map, photons are stored in a 3d kd tree, describing the caustic light imagine on a diffuse surface
 
+## Photon Storage
+![[Pasted image 20260623175623.png]]
+
+![[Pasted image 20260623175637.png]]
+
+![[Pasted image 20260623175703.png]]
+
+![[Pasted image 20260623175711.png]]
