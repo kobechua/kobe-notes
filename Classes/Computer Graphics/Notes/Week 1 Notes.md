@@ -156,6 +156,7 @@ What's the difference between $(i,j)$, $(u_i, v_j)$, and $S_{i,j}$?
  $S_{i,j}$: the 3D world-space point on the view plane.
  The view plane sits between the eye and the scene
 
+Parametric Line Equation for Ray
 ![[../../../resources/Pasted image 20260523123443.png|455]]
 
 - This is representing the coordinates of the points on a line in terms of $t$ 
