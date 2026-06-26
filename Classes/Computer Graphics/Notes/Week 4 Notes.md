@@ -15,6 +15,7 @@ Cast a shadow ray from the intersection point to the light and if it intersects 
 ![[Pasted image 20260619233502.png]]
 We can determine if a shadow ray is in shadow by looking at the direction of a surface. If the surface of an object is away from the light source, then its probably a shadow.
 
+Blinn Phong
 ![[Pasted image 20260620225854.png]]
 
 ![[Pasted image 20260620231523.png]]
